@@ -1,0 +1,45 @@
+# 운영체제 생성 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 에디터/IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js (필요시)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Vercel
+.vercel
+
+# 샘플/참고 파일 (배포 시 제외)
+KOREA BTS.html
+스타 배터리*.html
+스타 배터리*.files/
+
+# 가이드 문서 (선택사항 - 배포할지 결정)
+# 도메인_이메일_연결_가이드.md
+# Vercel_배포_가이드.md
+# EMAIL_SETUP_GUIDE.md
+
+# 백업 파일
+*.bak
+*.backup
+*.old
+
+# 임시 파일
+*.tmp
+*.temp
+
+# 사용하지 않는 이미지 폴더
+images/products 2/
+
+# 로그 파일
+*.log
+
