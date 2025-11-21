@@ -960,13 +960,6 @@ function switchLanguage(lang) {
     localStorage.setItem('preferred-language', lang);
 }
 
-// 카탈로그 다운로드
-function downloadCatalog() {
-    alert(currentLanguage === 'ko' ? '카탈로그 다운로드가 시작됩니다.' : 
-          currentLanguage === 'en' ? 'Catalog download will start.' : 
-          '目录下载将开始。');
-}
-
 // 초기화
 document.addEventListener('DOMContentLoaded', () => {
     // Load saved language preference
