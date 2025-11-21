@@ -309,6 +309,8 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .particles {
@@ -338,6 +340,8 @@ body {
     text-align: center;
     color: var(--white);
     max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .hero-title {
@@ -1374,6 +1378,18 @@ section {
         overflow-x: hidden;
     }
     
+    .hero .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    
+    .hero-content {
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    
     .hero-title {
         font-size: 34px;
         line-height: 1.3;
@@ -1386,9 +1402,17 @@ section {
         margin-bottom: 30px;
     }
     
+    .hero-features {
+        width: 100%;
+        max-width: 100%;
+        margin: 30px auto;
+        padding: 0;
+    }
+    
     .feature-item {
         font-size: 16px;
         padding: 8px 0;
+        width: 100%;
     }
     
     .feature-item i {
