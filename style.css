@@ -285,14 +285,10 @@ body {
     object-fit: cover;
 }
 
-/* 모바일에서 비디오 최적화 - 성능 개선 */
+/* 모바일에서 비디오 최적화 */
 @media (max-width: 768px) {
     .hero-video video {
-        display: none; /* 모바일에서는 비디오 숨김 - 성능 향상 */
-    }
-    
-    .hero {
-        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #764ba2 100%);
+        display: block; /* 모바일에서도 비디오 표시 */
     }
 }
 
