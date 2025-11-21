@@ -1021,9 +1021,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Initialize AOS
     AOS.init({
-        duration: 800,
-        once: false,
-        offset: 100
+        duration: 400, // 더 빠른 애니메이션
+        once: true, // 한 번만 실행
+        offset: 120 // 더 빨리 시작
     });
     
     // ===========================

@@ -698,34 +698,297 @@
 }
 
 @media (max-width: 768px) {
+    /* 컨테이너 여백 */
+    .container {
+        padding: 0 24px;
+    }
+    
+    /* 히어로 섹션 */
     .product-hero {
-        padding: 100px 0 30px;
+        padding: 100px 0 40px;
     }
     
     .product-title {
         font-size: 32px;
+        line-height: 1.3;
+        margin-bottom: 16px;
     }
     
+    .product-category {
+        font-size: 15px;
+        padding: 8px 18px;
+    }
+    
+    .product-subtitle {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+    
+    .product-price {
+        font-size: 32px;
+    }
+    
+    /* 버튼 터치 영역 확대 */
     .product-actions {
         flex-direction: column;
+        gap: 12px;
     }
     
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        min-height: 52px;
+        font-size: 16px;
+        padding: 15px 32px;
+    }
+    
+    /* 탭 버튼 */
+    .tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 8px;
+        padding-bottom: 10px;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .tab-btn {
+        padding: 12px 24px;
+        min-height: 48px;
+        font-size: 15px;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+    
+    /* 탭 컨텐츠 */
     .tabs-content {
         padding: 30px 20px;
     }
     
+    /* 스펙 테이블 */
+    .specs-table {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        display: block;
+    }
+    
+    .specs-table table {
+        min-width: 500px; /* 가로 스크롤 허용 */
+    }
+    
+    .specs-table td,
+    .specs-table th {
+        font-size: 14px;
+        padding: 14px 12px;
+    }
+    
+    /* 특징 카드 */
+    .feature-card {
+        padding: 24px 20px;
+    }
+    
+    .feature-card i {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+    }
+    
+    .feature-card h4 {
+        font-size: 17px;
+    }
+    
+    .feature-card p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    
+    /* 애플리케이션 & 인증 그리드 */
     .applications-grid,
     .certifications-grid,
     .products-grid {
         grid-template-columns: 1fr;
+        gap: 20px;
     }
     
-    .specs-table {
-        overflow-x: auto;
+    .application-card,
+    .cert-card {
+        padding: 24px 20px;
     }
     
+    .application-card i,
+    .cert-card i {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+    }
+    
+    .application-card h4,
+    .cert-card h4 {
+        font-size: 17px;
+    }
+    
+    /* 문의 폼 */
     .inquiry-wrapper {
-        padding: 30px 20px;
+        padding: 30px 24px;
+        gap: 40px;
+    }
+    
+    .inquiry-info h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    
+    .inquiry-info p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    
+    .benefit-item {
+        padding: 16px;
+    }
+    
+    .benefit-item i {
+        width: 44px;
+        height: 44px;
+        font-size: 18px;
+    }
+    
+    .benefit-item span {
+        font-size: 14px;
+    }
+    
+    /* 폼 입력 필드 - iOS 자동 확대 방지 */
+    .inquiry-form input[type="text"],
+    .inquiry-form input[type="email"],
+    .inquiry-form input[type="tel"],
+    .inquiry-form input[type="number"],
+    .inquiry-form textarea {
+        font-size: 16px; /* 16px 이상 필수 */
+        min-height: 52px;
+        padding: 14px 16px;
+    }
+    
+    .inquiry-form textarea {
+        min-height: 140px;
+    }
+    
+    .inquiry-form label {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    /* 체크박스 */
+    .form-check input[type="checkbox"] {
+        width: 22px;
+        height: 22px;
+        min-width: 22px;
+    }
+    
+    .form-check label {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    
+    /* 제출 버튼 */
+    .btn-block {
+        min-height: 52px;
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* 작은 모바일 최적화 */
+    .container {
+        padding: 0 20px;
+    }
+    
+    .product-title {
+        font-size: 28px;
+    }
+    
+    .product-subtitle {
+        font-size: 15px;
+    }
+    
+    .product-price {
+        font-size: 28px;
+    }
+    
+    .product-category {
+        font-size: 14px;
+        padding: 6px 14px;
+    }
+    
+    /* 버튼 */
+    .btn-primary,
+    .btn-secondary {
+        min-height: 50px;
+        font-size: 15px;
+        padding: 14px 28px;
+    }
+    
+    /* 탭 */
+    .tab-btn {
+        padding: 12px 20px;
+        min-height: 46px;
+        font-size: 14px;
+    }
+    
+    .tabs-content {
+        padding: 24px 16px;
+    }
+    
+    /* 특징 카드 */
+    .feature-card {
+        padding: 20px 16px;
+    }
+    
+    .feature-card h4 {
+        font-size: 16px;
+    }
+    
+    .feature-card p {
+        font-size: 13px;
+    }
+    
+    /* 문의 섹션 */
+    .inquiry-wrapper {
+        padding: 24px 20px;
+    }
+    
+    .inquiry-info h2 {
+        font-size: 24px;
+    }
+    
+    .inquiry-info p {
+        font-size: 14px;
+    }
+    
+    .benefit-item {
+        padding: 14px;
+    }
+    
+    .benefit-item span {
+        font-size: 13px;
+    }
+    
+    /* 폼 */
+    .inquiry-form input[type="text"],
+    .inquiry-form input[type="email"],
+    .inquiry-form input[type="tel"],
+    .inquiry-form input[type="number"],
+    .inquiry-form textarea {
+        font-size: 16px; /* 16px 유지 */
+        min-height: 50px;
+    }
+    
+    .inquiry-form label {
+        font-size: 14px;
+    }
+    
+    .btn-block {
+        min-height: 50px;
+        font-size: 15px;
     }
 }
 

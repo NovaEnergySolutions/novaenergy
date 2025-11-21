@@ -1,9 +1,9 @@
 // AOS 초기화 - 스크롤 애니메이션
 AOS.init({
-    duration: 800,
-    once: false, // 스크롤할 때마다 반복
-    offset: 50,
-    easing: 'ease-in-out-cubic',
+    duration: 400, // 더 빠른 애니메이션
+    once: true, // 한 번만 실행 (더 부드러움)
+    offset: 120, // 더 빨리 시작
+    easing: 'ease-out-cubic',
     delay: 0
 });
 
