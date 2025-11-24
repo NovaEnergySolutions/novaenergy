@@ -574,7 +574,9 @@ section {
 
 /* 회사소개 섹션 */
 .about {
-    background: var(--bg-light);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.88)), 
+                url('images/company/NovaEnergy_Company.jpeg') center/cover no-repeat fixed;
+    position: relative;
 }
 
 .about-content {
@@ -587,14 +589,16 @@ section {
 .about-text h3 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: var(--text-dark);
+    color: #1a202c;
+    font-weight: 700;
 }
 
 .about-text p {
     font-size: 16px;
-    color: var(--text-light);
+    color: #2d3748;
     margin-bottom: 20px;
     line-height: 1.8;
+    font-weight: 500;
 }
 
 .about-stats {
