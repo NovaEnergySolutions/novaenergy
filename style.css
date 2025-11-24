@@ -80,16 +80,16 @@ body {
 }
 
 .logo-img {
-    height: 55px;
+    height: 80px;
     width: auto;
-    max-width: 250px;
+    max-width: 300px;
     transition: var(--transition);
     filter: brightness(0) invert(1);
 }
 
 .navbar.scrolled .logo-img {
     filter: none;
-    height: 55px;
+    height: 75px;
 }
 
 .logo-text {
@@ -1160,9 +1160,9 @@ section {
 
 .footer-logo-img {
     margin-top: 20px;
-    height: 60px;
+    height: 85px;
     width: auto;
-    max-width: 200px;
+    max-width: 240px;
     filter: brightness(0) invert(1);
     opacity: 0.9;
 }
