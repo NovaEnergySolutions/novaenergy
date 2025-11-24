@@ -195,12 +195,12 @@ const translations = {
 
 // 제품 데이터 - 다국어
 const productsData = {
-    'roypow-golf-48v': {
+    'novacell-golf-48v': {
         image: 'images/products/골프카트 라이프 PO4 배터리 솔루션.png',
         name: {
-            ko: 'RoyPow LifePO4 Battery 48V 105Ah',
-            en: 'RoyPow LifePO4 Battery 48V 105Ah',
-            cn: 'RoyPow LifePO4 Battery 48V 105Ah'
+            ko: 'NOVACELL LifePO4 Battery 48V 105Ah',
+            en: 'NOVACELL LifePO4 Battery 48V 105Ah',
+            cn: 'NOVACELL LifePO4 Battery 48V 105Ah'
         },
         category: {
             ko: '골프카트 배터리',
@@ -213,9 +213,9 @@ const productsData = {
             cn: '48V 105Ah 高尔夫球车专用磷酸铁锂电池'
         },
         description: {
-            ko: 'RoyPow LifePO4 Battery는 YAMAHA 등 주요 골프카트 브랜드에 최적화된 차세대 리튬인산철 배터리입니다. 3500 사이클의 장수명과 10년 설계 수명으로 5년간 70% 이상의 비용을 절감할 수 있습니다. 낮은 온도에서도 안정적인 방전 성능과 멀티 안전장치로 최고의 안전성을 제공합니다.',
-            en: 'RoyPow LifePO4 Battery is a next-generation LiFePO4 battery optimized for major golf cart brands like YAMAHA. With 3500 cycle life and 10-year design life, it saves over 70% of costs in 5 years. Provides stable discharge performance even at low temperatures and the highest safety with multi-protection devices.',
-            cn: 'RoyPow LifePO4 Battery是针对YAMAHA等主要高尔夫球车品牌优化的下一代磷酸铁锂电池。3500次循环寿命和10年设计寿命，5年内可节省70%以上的成本。即使在低温下也能提供稳定的放电性能，并通过多重保护装置提供最高的安全性。'
+            ko: 'NOVACELL LifePO4 Battery는 YAMAHA 등 주요 골프카트 브랜드에 최적화된 차세대 리튬인산철 배터리입니다. 3500 사이클의 장수명과 10년 설계 수명으로 5년간 70% 이상의 비용을 절감할 수 있습니다. 낮은 온도에서도 안정적인 방전 성능과 멀티 안전장치로 최고의 안전성을 제공합니다.',
+            en: 'NOVACELL LifePO4 Battery is a next-generation LiFePO4 battery optimized for major golf cart brands like YAMAHA. With 3500 cycle life and 10-year design life, it saves over 70% of costs in 5 years. Provides stable discharge performance even at low temperatures and the highest safety with multi-protection devices.',
+            cn: 'NOVACELL LifePO4 Battery是针对YAMAHA等主要高尔夫球车品牌优化的下一代磷酸铁锂电池。3500次循环寿命和10年设计寿命，5年内可节省70%以上的成本。即使在低温下也能提供稳定的放电性能，并通过多重保护装置提供最高的安全性。'
         },
         specs: {
             '51V': '51V',
@@ -297,12 +297,12 @@ const productsData = {
         ],
         icon: 'fas fa-battery-full'
     },
-    'roypow-golf-36v': {
+    'novacell-golf-36v': {
         image: 'images/products/골프카트 배터리 38V 105Ah.jpeg',
         name: {
-            ko: 'RoyPow 골프카트 배터리 38V 105Ah',
-            en: 'RoyPow Golf Cart Battery 38V 105Ah',
-            cn: 'RoyPow 高尔夫球车电池 38V 105Ah'
+            ko: 'NOVACELL 골프카트 배터리 38V 105Ah',
+            en: 'NOVACELL Golf Cart Battery 38V 105Ah',
+            cn: 'NOVACELL 高尔夫球车电池 38V 105Ah'
         },
         category: {
             ko: '골프카트 배터리',
@@ -315,9 +315,9 @@ const productsData = {
             cn: '38V 105Ah 通用兼容磷酸铁锂电池（S38105）'
         },
         description: {
-            ko: 'RoyPow 36V 모델은 다양한 골프카트에 호환되는 범용 배터리입니다. 경량 설계와 높은 에너지 효율로 더 긴 주행거리를 제공합니다.',
-            en: 'RoyPow 36V model is a universal battery compatible with various golf carts. Lightweight design and high energy efficiency provide longer driving range.',
-            cn: 'RoyPow 36V型号是与各种高尔夫球车兼容的通用电池。轻量化设计和高能效提供更长的行驶里程。'
+            ko: 'NOVACELL 36V 모델은 다양한 골프카트에 호환되는 범용 배터리입니다. 경량 설계와 높은 에너지 효율로 더 긴 주행거리를 제공합니다.',
+            en: 'NOVACELL 36V model is a universal battery compatible with various golf carts. Lightweight design and high energy efficiency provide longer driving range.',
+            cn: 'NOVACELL 36V型号是与各种高尔夫球车兼容的通用电池。轻量化设计和高能效提供更长的行驶里程。'
         },
         specs: {
             '38.4V': '38.4V',
@@ -377,12 +377,12 @@ const productsData = {
         ],
         icon: 'fas fa-car-battery'
     },
-    'roypow-golf-72v': {
+    'novacell-golf-72v': {
         image: 'images/products/리튬이온60V.png',
         name: {
-            ko: 'RoyPow 골프카트 배터리 76V 105Ah',
-            en: 'RoyPow Golf Cart Battery 76V 105Ah',
-            cn: 'RoyPow 高尔夫球车电池 76V 105Ah'
+            ko: 'NOVACELL 골프카트 배터리 76V 105Ah',
+            en: 'NOVACELL Golf Cart Battery 76V 105Ah',
+            cn: 'NOVACELL 高尔夫球车电池 76V 105Ah'
         },
         category: {
             ko: '골프카트 배터리',
@@ -395,9 +395,9 @@ const productsData = {
             cn: '76V 105Ah 高性能电池（S72105P）'
         },
         description: {
-            ko: 'RoyPow S72105P 모델은 76V 고성능 시스템의 프리미엄 골프카트를 위한 최상급 배터리입니다. 97-113km의 초장거리 주행이 가능하며, 150A 지속 방전과 315A 최대 방전으로 강력한 출력을 제공합니다.',
-            en: 'RoyPow S72105P is the top-tier battery for premium 76V high-performance golf carts. Capable of 97-113km ultra-long range, providing powerful output with 150A continuous discharge and 315A peak discharge.',
-            cn: 'RoyPow S72105P是用于76V高性能高档高尔夫球车的顶级电池。可实现97-113公里的超长续航，以150A持续放电和315A峰值放电提供强大输出。'
+            ko: 'NOVACELL S72105P 모델은 76V 고성능 시스템의 프리미엄 골프카트를 위한 최상급 배터리입니다. 97-113km의 초장거리 주행이 가능하며, 150A 지속 방전과 315A 최대 방전으로 강력한 출력을 제공합니다.',
+            en: 'NOVACELL S72105P is the top-tier battery for premium 76V high-performance golf carts. Capable of 97-113km ultra-long range, providing powerful output with 150A continuous discharge and 315A peak discharge.',
+            cn: 'NOVACELL S72105P是用于76V高性能高档高尔夫球车的顶级电池。可实现97-113公里的超长续航，以150A持续放电和315A峰值放电提供强大输出。'
         },
         specs: {
             '76V': '76V',
