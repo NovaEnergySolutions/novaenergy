@@ -300,6 +300,30 @@ body {
 .bms-section {
   grid-column: 1 / -1; /* PC에서 전체 폭 */
 }
+
+.battery-cells-wrapper {
+  margin-bottom: 60px;
+}
+
+.battery-cells-title {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 25px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.battery-cells-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2px;
+  background: #e5e7eb;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 /* 모바일에서 비디오 최적화 */
 @media (max-width: 768px) {
   .hero-video video {
@@ -1061,13 +1085,22 @@ section {
 
 /* 문의하기 섹션 */
 .contact-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  justify-content: space-between;
   gap: 60px;
   background: var(--white);
   border-radius: 20px;
   padding: 60px;
   box-shadow: var(--shadow-lg);
+}
+
+.contact-info {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
 }
 
 .contact-info h2 {
@@ -1276,6 +1309,27 @@ section {
 
 /* 반응형 - 모바일/태블릿 */
 @media (max-width: 768px) {
+  .battery-cells-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .battery-cell {
+    background: white;
+    padding: 35px 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+  }
+
+  .battery-cell img {
+    max-height: 45px;
+    max-width: 180px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
   /* 가로 스크롤 방지 */
   html,
   body {
