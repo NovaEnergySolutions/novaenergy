@@ -462,9 +462,9 @@ const productsData = {
       cn: "NOVAECO 卡车·高空作业平台电池 24V 230Ah",
     },
     category: {
-      ko: "캠핑카 & 산업용 배터리",
-      en: "RV & Industrial Battery",
-      cn: "房车和工业电池",
+      ko: "24V 트럭/고소작업대/청소차",
+      en: "24V Truck / Aerial Work Platform / Sweeper",
+      cn: "24V 卡车 / 高空作业平台 / 清扫车",
     },
     subtitle: {
       ko: "24V 230Ah 대용량 리튬인산철 배터리",
@@ -622,9 +622,9 @@ const productsData = {
       cn: "NOVAECO 48V 100Ah",
     },
     category: {
-      ko: "AGV & 산업용 배터리",
-      en: "AGV & Industrial Battery",
-      cn: "AGV和工业电池",
+      ko: "24V 트럭/고소작업대/청소차",
+      en: "24V Truck / Aerial Work Platform / Sweeper",
+      cn: "24V 卡车 / 高空作业平台 / 清扫车",
     },
     subtitle: {
       ko: "48V 100Ah 산업용 리튬인산철 배터리",
