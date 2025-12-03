@@ -288,7 +288,7 @@ body {
 /* 기본: PC/태블릿에서는 2열 */
 .battery-features-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 2px;
 }
 
@@ -319,13 +319,189 @@ body {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2px;
-  background: #e5e7eb;
+  background: #edeef0;
   max-width: 1000px;
   margin: 0 auto;
 }
 
+.battery-cells-grid img {
+  max-height: 45px;
+  max-width: 180px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 40px auto;
+}
+.battery-section {
+  padding: 60px 20px;
+  /* background: radial-gradient(circle at top left, #123e72 0, #060e1a 55%, #020509 100%); */
+  display: flex;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Segoe UI", sans-serif;
+  color: #e6f0ff;
+}
+
+.battery-inner {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  align-items: stretch;
+}
+
+/* 왼쪽 비주얼 영역 */
+.battery-left {
+  flex: 1.1;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  background-image: linear-gradient(135deg, rgba(0, 255, 255, 0.22), rgba(0, 170, 255, 0.05)), url("/images/battery.jpg");
+  /* ↑ 임시 프리소스 이미지, 실제 배터리 일러스트로 교체해도 됨 */
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+}
+
+.battery-visual-overlay {
+  position: relative;
+  z-index: 1;
+  padding: 32px 28px;
+  height: 100%;
+  background: linear-gradient(145deg, rgba(2, 12, 30, 0.9) 0, rgba(2, 14, 40, 0.55) 45%, rgba(0, 0, 0, 0.15) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.battery-tagline {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  margin-bottom: 10px;
+}
+
+.battery-title-en {
+  font-size: 34px;
+  line-height: 1.1;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.battery-caption {
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+/* 오른쪽 내용 영역 */
+.battery-right {
+  flex: 1;
+  background: linear-gradient(145deg, #071526, #06121f);
+  border-radius: 20px;
+  padding: 28px 30px 26px;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(124, 178, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+.battery-heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: -0.03em;
+}
+
+.battery-table-wrap {
+  border-radius: 14px;
+  border: 1px solid rgba(120, 180, 255, 0.5);
+  overflow: hidden;
+  background: radial-gradient(circle at top, #0e2644, #050d19);
+  margin-bottom: 18px;
+}
+
+.battery-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.battery-table thead {
+  background: linear-gradient(90deg, #163a66, #144f7a);
+}
+
+.battery-table th,
+.battery-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(120, 180, 255, 0.2);
+  text-align: left;
+}
+
+.battery-table th:first-child,
+.battery-table td:first-child {
+  width: 27%;
+  border-right: 1px solid rgba(120, 180, 255, 0.24);
+}
+
+.battery-table th {
+  font-weight: 600;
+  font-size: 13px;
+  color: #eaf2ff;
+  white-space: nowrap;
+}
+
+.battery-table tbody tr:nth-child(even) {
+  background-color: rgba(8, 24, 48, 0.65);
+}
+
+.battery-table tbody tr:nth-child(odd) {
+  background-color: rgba(5, 16, 32, 0.85);
+}
+
+.battery-desc {
+  margin-top: auto;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #b7c7e7;
+}
+
+@media (max-width: 960px) {
+  .battery-inner {
+    flex-direction: column;
+  }
+
+  .battery-left,
+  .battery-right {
+    flex: none;
+    width: 100%;
+  }
+}
+
 /* 모바일에서 비디오 최적화 */
 @media (max-width: 768px) {
+  .battery-section {
+    padding: 40px 16px;
+  }
+
+  .battery-right {
+    padding: 22px 18px 20px;
+  }
+
+  .battery-heading {
+    font-size: 18px;
+  }
+
+  .battery-table th,
+  .battery-table td {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .battery-title-en {
+    font-size: 26px;
+  }
+
   .hero-video video {
     display: block; /* 모바일에서도 비디오 표시 */
   }
@@ -1022,6 +1198,9 @@ section {
   font-size: 14px;
   margin-top: auto;
   width: 100%;
+  border: 1px solid #0047cc;
+  display: flex;
+  justify-content: center;
 }
 
 /* 스와이퍼 네비게이션 & 페이지네이션 */
@@ -1090,9 +1269,10 @@ section {
   display: flex;
   justify-content: space-between;
   gap: 60px;
-  background: var(--white);
+
+  color: white;
   border-radius: 20px;
-  padding: 60px;
+  padding: 60px 160px;
   box-shadow: var(--shadow-lg);
 }
 
@@ -1100,19 +1280,19 @@ section {
   display: flex;
   width: 100%;
   flex-direction: column;
-  text-align: center;
+  text-align: start;
 }
 
 .contact-info h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
+  font-size: 45px;
   font-weight: 700;
+  margin: 10px 0 20px;
 }
 
 .contact-info p {
   color: var(--text-light);
   margin-bottom: 40px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .contact-details {
@@ -1307,8 +1487,61 @@ section {
   box-shadow: 0 8px 30px rgba(30, 105, 255, 0.6);
 }
 
+.product-category {
+  color: #091650;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  border: 1px solid #a1a8c7;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+  transition: all 0.25s ease;
+}
+
+.product-category i {
+  margin-right: 8px;
+}
+
+/* Hover 효과 */
+.product-category:hover {
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.45);
+  transform: translateY(-3px);
+}
+
+/* ★ 활성화(active) 상태 스타일 */
+.product-category.active {
+  background: linear-gradient(135deg, #1e3a8a 0%, #64748b 100%);
+  color: #fff !important;
+  border-color: transparent;
+  box-shadow: 0 4px 20px rgba(30, 58, 138, 0.4);
+}
+
 /* 반응형 - 모바일/태블릿 */
 @media (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column; /* 위아래 배치 */
+    padding: 32px 20px;
+    gap: 24px;
+  }
+
+  .contact-info {
+    text-align: left; /* 필요하면 center로 바꿔도 됨 */
+  }
+
+  .contact-info h2 {
+    font-size: 28px;
+    margin: 5px 0 15px;
+  }
+
+  .contact-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
   .battery-cells-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1816,6 +2049,17 @@ section {
     width: 100%;
   }
 
+  .contact-wrapper {
+    padding: 24px 16px;
+  }
+
+  .contact-info h2 {
+    font-size: 24px;
+  }
+
+  .contact-info p {
+    font-size: 15px;
+  }
   .container {
     padding: 0 20px;
     width: 100%;
@@ -2014,7 +2258,7 @@ section {
   }
 
   .battery-cells-grid > div {
-    padding: 20px 12px !important;
+    /* padding: 20px 12px !important; */
     min-height: 70px !important;
   }
 
