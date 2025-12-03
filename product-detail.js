@@ -196,7 +196,8 @@ const translations = {
 // 제품 데이터 - 다국어
 const productsData = {
   "novaECO-golf-48v": {
-    image: "images/products/골프카트 라이프 PO4 배터리 솔루션.png",
+    // image: "images/products/골프카트 라이프 PO4 배터리 솔루션.png",
+    image: "images/products/48v105ah.png",
     name: {
       ko: "NOVAECO LifePO4 Battery 48V 105Ah",
       en: "NOVAECO LifePO4 Battery 48V 105Ah",
@@ -455,7 +456,7 @@ const productsData = {
     icon: "fas fa-battery-full",
   },
   "novaECO-24v-230ah": {
-    image: "images/products/고소 작업대 배터리.png",
+    image: "images/products/고소 작업대 배터리 복사.png",
     name: {
       ko: "NOVAECO 트럭·고소작업대 배터리 24V 230Ah",
       en: "NOVAECO Truck·Aerial Platform Battery 24V 230Ah",
@@ -614,12 +615,12 @@ const productsData = {
     ],
     icon: "fas fa-battery-three-quarters",
   },
-  "novaECO-48v-100ah": {
+  "novaECO-24v-300ah": {
     image: "images/products/배터리내부 사진.png",
     name: {
-      ko: "NOVAECO 48V 100Ah",
-      en: "NOVAECO 48V 100Ah",
-      cn: "NOVAECO 48V 100Ah",
+      ko: "NOVAECO 24V 300Ah",
+      en: "NOVAECO 24V 300Ah",
+      cn: "NOVAECO 24V 300Ah",
     },
     category: {
       ko: "24V 트럭/고소작업대/청소차",
@@ -627,12 +628,12 @@ const productsData = {
       cn: "24V 卡车 / 高空作业平台 / 清扫车",
     },
     subtitle: {
-      ko: "48V 100Ah 산업용 리튬인산철 배터리",
-      en: "48V 100Ah Industrial LiFePO4 Battery",
-      cn: "48V 100Ah 工业磷酸铁锂电池",
+      ko: "24V 300Ah 산업용 리튬인산철 배터리",
+      en: "24V 300Ah Industrial LiFePO4 Battery",
+      cn: "24V 300Ah 工业磷酸铁锂电池",
     },
     description: {
-      ko: "NOVAECO 48V 100Ah는 AGV, 지게차, 산업용 로봇에 최적화된 배터리입니다. 고출력과 긴 수명으로 24시간 가동 환경에 적합합니다.",
+      ko: "NOVAECO 24V 300Ah는 AGV, 지게차, 산업용 로봇에 최적화된 배터리입니다. 고출력과 긴 수명으로 24시간 가동 환경에 적합합니다.",
       en: "NOVAECO 48V 100Ah is a battery optimized for AGVs, forklifts, and industrial robots. High output and long lifecycle suitable for 24-hour operation.",
       cn: "NOVAECO 48V 100Ah是专为AGV、叉车和工业机器人优化的电池。高输出和长寿命，适合24小时运行环境。",
     },
