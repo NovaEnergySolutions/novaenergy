@@ -214,30 +214,30 @@ const productsData = {
       cn: "48V 105Ah 高尔夫球车专用磷酸铁锂电池",
     },
     description: {
-      ko: "NOVAECO LifePO4 Battery는 YAMAHA 등 주요 골프카트 브랜드에 최적화된 차세대 리튬인산철 배터리입니다. 3500 사이클의 장수명과 10년 설계 수명으로 5년간 70% 이상의 비용을 절감할 수 있습니다. 낮은 온도에서도 안정적인 방전 성능과 멀티 안전장치로 최고의 안전성을 제공합니다.",
-      en: "NOVAECO LifePO4 Battery is a next-generation LiFePO4 battery optimized for major golf cart brands like YAMAHA. With 3500 cycle life and 10-year design life, it saves over 70% of costs in 5 years. Provides stable discharge performance even at low temperatures and the highest safety with multi-protection devices.",
-      cn: "NOVAECO LifePO4 Battery是针对YAMAHA等主要高尔夫球车品牌优化的下一代磷酸铁锂电池。3500次循环寿命和10年设计寿命，5年内可节省70%以上的成本。即使在低温下也能提供稳定的放电性能，并通过多重保护装置提供最高的安全性。",
+      ko: "NOVAECO LifePO4 Battery는 YAMAHA 등 주요 골프카트 브랜드에 최적화된 차세대 리튬인산철 배터리입니다. 6000 사이클의 장수명과 10년 설계 수명으로 5년간 70% 이상의 비용을 절감할 수 있습니다. 낮은 온도에서도 안정적인 방전 성능과 멀티 안전장치로 최고의 안전성을 제공합니다.",
+      en: "NOVAECO LifePO4 Battery is a next-generation LiFePO4 battery optimized for major golf cart brands like YAMAHA. With 6000 cycle life and 10-year design life, it saves over 70% of costs in 5 years. Provides stable discharge performance even at low temperatures and the highest safety with multi-protection devices.",
+      cn: "NOVAECO LifePO4 Battery是针对YAMAHA等主要高尔夫球车品牌优化的下一代磷酸铁锂电池。6000次循环寿命和10年设计寿命，5年内可节省70%以上的成本。即使在低温下也能提供稳定的放电性能，并通过多重保护装置提供最高的安全性。",
     },
     specs: {
-      "51V": "51V",
+      "51V": "48V",
       "105Ah": "105Ah",
       "5.38kWh": "5.38kWh",
       "43.2kg": { ko: "43.2kg (95 lbs)", en: "43.2kg (95 lbs)", cn: "43.2kg (95磅)" },
-      "3500회 이상": { ko: "3500회 이상", en: "3500+ Cycles", cn: "3500次以上" },
+      "3500회 이상": { ko: "6000회 이상", en: "6000+ Cycles", cn: "6000次以上" },
     },
     detailedSpecs: {
       모델명: { ko: "N51105 (48V 시스템)", en: "N51105 (48V System)", cn: "N51105（48V系统）" },
-      "정격 전압": { ko: "51V", en: "51V", cn: "51V" },
+      "정격 전압": { ko: "48V", en: "48V", cn: "48V" },
       "정격 용량": { ko: "105Ah", en: "105Ah", cn: "105Ah" },
       에너지: { ko: "5.38kWh", en: "5.38kWh", cn: "5.38kWh" },
-      "사이클 수명": { ko: "3500회 이상", en: ">3500 Cycles", cn: ">3500次" },
+      "사이클 수명": { ko: "6000회 이상", en: ">6000 Cycles", cn: ">6000次" },
       "사이즈 (L×W×H)": { ko: "560×310×250mm", en: "560×310×250mm", cn: "560×310×250mm" },
       무게: { ko: "43.2kg (95 lbs)", en: "43.2kg (95 lbs)", cn: "43.2kg (95磅)" },
       "주행거리 (완충후)": { ko: "64-81km (40-50 miles)", en: "64-81km (40-50 miles)", cn: "64-81km（40-50英里）" },
       "표준 충전": { ko: "22A", en: "22A", cn: "22A" },
       "지속 방전": { ko: "100A", en: "100A", cn: "100A" },
       "최대 방전": { ko: "200A (10초)", en: "200A (10s)", cn: "200A（10秒）" },
-      "충전 시간": { ko: "5.0시간", en: "5.0 hours", cn: "5.0小时" },
+      "충전 시간": { ko: "3.0시간", en: "3.0 hours", cn: "3.0小时" },
       "셀 조합": { ko: "16S1P", en: "16S1P", cn: "16S1P" },
       "셀 규격": { ko: "LF105 (3.2V 105Ah)", en: "LF105 (3.2V 105Ah)", cn: "LF105（3.2V 105Ah）" },
       "케이스 / 방수 등급": { ko: "Steel / IP67", en: "Steel / IP67", cn: "Steel / IP67" },
@@ -250,12 +250,12 @@ const productsData = {
       },
       {
         icon: "fas fa-sync-alt",
-        title: { ko: "3500 사이클 수명", en: "3500 Cycle Life", cn: "3500循环寿命" },
+        title: { ko: "6000 사이클 수명", en: "6000 Cycle Life", cn: "6000循环寿命" },
         desc: { ko: "10년 설계 수명, 장기 사용", en: "10-year design life, long-term use", cn: "10年设计寿命，长期使用" },
       },
       {
         icon: "fas fa-bolt-lightning",
-        title: { ko: "최소 1시간 고속 충전", en: "Fast Charging 1hr Min", cn: "最少1小时快速充电" },
+        title: { ko: "최소 3시간 고속 충전", en: "Fast Charging 3hr Min", cn: "最少3小时快速充电" },
         desc: { ko: "언제든 충전 가능, 메모리 효과 없음", en: "Charge anytime, no memory effect", cn: "随时充电，无记忆效应" },
       },
       {
@@ -299,7 +299,7 @@ const productsData = {
     icon: "fas fa-battery-full",
   },
   "novaECO-golf-36v": {
-    image: "/images/products/n_48V120Ah2.png",
+    image: "/images/products/r_48v120Ah.png",
     name: {
       ko: "NOVAECO 골프카트 배터리 48v 120Ah ",
       en: "NOVAECO Golf Cart Battery 48v 120Ah ",
@@ -340,7 +340,7 @@ const productsData = {
       "사이즈 (L×W×H)": { ko: "500 × 205 × 220mm", en: "500 × 205 × 220mm", cn: "500 × 205 × 220mm" },
       무게: { ko: "약 48kg", en: "Approx. 48kg", cn: "约48kg" },
       "케이스 / 방수 등급": { ko: "IP65", en: "IP65", cn: "IP65" },
-      "사이클 수명": { ko: "4000+ 사이클 (80% DOD)", en: "4000+ Cycles (80% DOD)", cn: "4000+ 循环（80% DOD）" },
+      "사이클 수명": { ko: "6000+ 사이클 (80% DOD)", en: "6000+ Cycles (80% DOD)", cn: "6000+ 循环（80% DOD）" },
     },
     features: [
       {
@@ -400,14 +400,14 @@ const productsData = {
       "105Ah": "105Ah",
       "8.06kWh": "8.06kWh",
       "72kg": { ko: "72kg (159 lbs)", en: "72kg (159 lbs)", cn: "72kg (159磅)" },
-      "3500회 이상": { ko: "3500회 이상", en: "3500+ Cycles", cn: "3500次以上" },
+      "3500회 이상": { ko: "6000회 이상", en: "6000+ Cycles", cn: "6000次以上" },
     },
     detailedSpecs: {
       모델명: { ko: "N72105 (72V 시스템)", en: "N72105 (72V System)", cn: "N72105（72V系统）" },
       "정격 전압": { ko: "76V", en: "76V", cn: "76V" },
       "정격 용량": { ko: "105Ah", en: "105Ah", cn: "105Ah" },
       에너지: { ko: "8.06kWh", en: "8.06kWh", cn: "8.06kWh" },
-      "사이클 수명": { ko: "3500회 이상", en: ">3500 Cycles", cn: ">3500次" },
+      "사이클 수명": { ko: "6000회 이상", en: ">6000 Cycles", cn: ">6000次" },
       "사이즈 (L×W×H)": { ko: "720×310×230mm", en: "720×310×230mm", cn: "720×310×230mm" },
       무게: { ko: "72kg (159 lbs)", en: "72kg (159 lbs)", cn: "72kg (159磅)" },
       "주행거리 (완충후)": { ko: "97-113km (60-70 miles)", en: "97-113km (60-70 miles)", cn: "97-113km（60-70英里）" },
@@ -456,7 +456,7 @@ const productsData = {
     icon: "fas fa-battery-full",
   },
   "novaECO-12v-600ah": {
-    image: "images/products/n_트럭고소작업대배터리24v230ah.png",
+    image: "images/products/r_12V600.png",
     name: {
       ko: "NOVAECO 트럭·고소작업대 배터리 12V 600Ah",
       en: "NOVAECO Truck·Aerial Platform Battery 12V 600Ah",
@@ -499,7 +499,7 @@ const productsData = {
       "사이즈 (L×W×H)": { ko: "750 × 200 × 300mm", en: "750 × 200 × 300mm", cn: "750 × 200 × 300mm" },
       무게: { ko: "59kg", en: "59kg", cn: "59kg" },
       "케이스 / 방수 등급": { ko: "IP67", en: "IP67", cn: "IP67" },
-      "사이클 수명": { ko: "4500+ 사이클 (80% DOD)", en: "4500+ Cycles (80% DOD)", cn: "4500+ 循环（80% DOD）" },
+      "사이클 수명": { ko: "6000+ 사이클 (80% DOD)", en: "6000+ Cycles (80% DOD)", cn: "6000+ 循环（80% DOD）" },
     },
     features: [
       {
@@ -539,7 +539,7 @@ const productsData = {
     icon: "fas fa-battery-full",
   },
   "novaECO-24v-230ah": {
-    image: "images/products/n_트럭고소작업대배터리24v230ah.png",
+    image: "/images/products/r_24v230Ah.png",
     name: {
       ko: "NOVAECO 트럭·고소작업대 배터리 24V 230Ah",
       en: "NOVAECO Truck·Aerial Platform Battery 24V 230Ah",
@@ -567,7 +567,7 @@ const productsData = {
       "12.8V": "25.6V",
       "230Ah": "230Ah",
       "5,576Wh": "5,576Wh",
-      "약 55kg": { ko: "약 55kg", en: "Approx. 55kg", cn: "约55kg" },
+      "약 50kg": { ko: "약 50kg", en: "Approx. 50kg", cn: "约50kg" },
     },
     detailedSpecs: {
       모델명: { ko: "NOVAECO-24V-230AH (24V 시스템)", en: "NOVAECO-24V-230AHH (24V System)", cn: "NOVAECO-24V-230AH(24V系统）" },
@@ -580,9 +580,9 @@ const productsData = {
       "방전 온도": { ko: "-30°C ~ 60°C", en: "-30°C ~ 60°C", cn: "-30°C ~ 60°C" },
       "보관 온도": { ko: "-20°C ~ 35°C", en: "-20°C ~ 35°C", cn: "-20°C ~ 35°C" },
       "사이즈 (L×W×H)": { ko: "520 × 270 × 240mm", en: "520 × 270 × 240mm", cn: "520 × 270 × 240mm" },
-      무게: { ko: "55kg", en: "55kg", cn: "55kg" },
+      무게: { ko: "50kg", en: "50kg", cn: "50kg" },
       "케이스 / 방수 등급": { ko: "IP67", en: "IP67", cn: "IP67" },
-      "사이클 수명": { ko: "4500+ 사이클 (80% DOD)", en: "4500+ Cycles (80% DOD)", cn: "4500+ 循环（80% DOD）" },
+      "사이클 수명": { ko: "6000+ 사이클 (80% DOD)", en: "6000+ Cycles (80% DOD)", cn: "6000+ 循环（80% DOD）" },
     },
     features: [
       {
@@ -622,11 +622,11 @@ const productsData = {
     icon: "fas fa-battery-full",
   },
   "novaECO-12v-300ah": {
-    image: "images/products/n_캠핑카블루투스관제시스템300Ah.png",
+    image: "/images/products/r_12V300.png",
     name: {
-      ko: "NOVAECO 캠핑카 Bluetooth 관제 시스템 300Ah",
-      en: "NOVAECO 00Ah RV Bluetooth Monitoring System",
-      cn: "NOVAECO 房车蓝牙监控系统 300Ah",
+      ko: "NOVAECO 캠핑카 배터리 12V 300Ah",
+      en: "NOVAECO Camping Car Battery 12V 300Ah",
+      cn: "NOVAECO 房车锂电池 12V 300Ah",
     },
     category: {
       ko: "소형 배터리",
@@ -634,9 +634,9 @@ const productsData = {
       cn: "小型电池",
     },
     subtitle: {
-      ko: "12V 100Ah 다목적 리튬인산철 배터리",
-      en: "12V 100Ah Multi-Purpose LiFePO4 Battery",
-      cn: "12V 100Ah 多用途磷酸铁锂电池",
+      ko: "12V 300Ah 다목적 리튬인산철 배터리",
+      en: "12V 300Ah Multi-Purpose LiFePO4 Battery",
+      cn: "12V 300Ah 多用途磷酸铁锂电池",
     },
     description: {
       ko: "NOVAECO 12V 300Ah는 캠핑, 보트, 소형 전동 장비에 적합한 배터리입니다. 경량 설계로 다용도성이 뛰어나며 최상급 BMS를 탑재했습니다.",
@@ -648,7 +648,7 @@ const productsData = {
       "12.8V": "12.8V",
       "300Ah": "300Ah",
       "3,840Wh": "3,840Wh",
-      "약 36kg": { ko: "약 36kg", en: "Approx. 36kg", cn: "约36kg" },
+      "약 34kg": { ko: "약 34kg", en: "Approx. 34kg", cn: "约36kg" },
       "3년": { ko: "3년", en: "3 Years", cn: "3年" },
     },
     detailedSpecs: {
@@ -662,9 +662,9 @@ const productsData = {
       "방전 온도": { ko: "-20°C ~ 60°C", en: "-20°C ~ 60°C", cn: "-20°C ~ 60°C" },
       "보관 온도": { ko: "0°C ~ 35°C", en: "0°C ~ 35°C", cn: "0°C ~ 35°C" },
       "사이즈 (L×W×H)": { ko: "330 × 250 × 220mm", en: "330 × 250 × 220mm", cn: "330 × 250 × 220mm" },
-      무게: { ko: "약 35kg", en: "Approx. 35kg", cn: "约35kg" },
+      무게: { ko: "약 34kg", en: "Approx. 34kg", cn: "约34kg" },
       "케이스 / 방수 등급": { ko: "IP65", en: "IP65", cn: "IP65" },
-      "사이클 수명": { ko: "3000+ 사이클 (80% DOD)", en: "3000+ Cycles (80% DOD)", cn: "3000+ 循环（80% DOD）" },
+      "사이클 수명": { ko: "6000+ 사이클 (80% DOD)", en: "6000+ Cycles (80% DOD)", cn: "6000+ 循环（80% DOD）" },
     },
     features: [
       //   {
@@ -702,7 +702,7 @@ const productsData = {
     icon: "fas fa-battery-three-quarters",
   },
   "novaECO-24v-300ah": {
-    image: "images/products/n_트럭고소작업대용배터리24v300ah.png",
+    image: "/images/products/r_24v300Ah.png",
     name: {
       ko: "NOVAECO 24V 300Ah",
       en: "NOVAECO 24V 300Ah",
@@ -728,11 +728,11 @@ const productsData = {
       "25.6V": "25.6V",
       "300Ah": "300Ah",
       "7,200Wh": "7,200Wh",
-      "약 50kg": { ko: "약 50kg", en: "Approx. 50kg", cn: "约50kg" },
+      "약 55kg": { ko: "약 55kg", en: "Approx. 55kg", cn: "约55kg" },
       //   "5년": { ko: "5년", en: "5 Years", cn: "5年" },
     },
     detailedSpecs: {
-      "25.6V (24V Nominal)": "25.6V (24V Nominal)",
+      제품명: "25.6V (24V Nominal)",
       정격용량: "300Ah",
       에너지: "7,200Wh",
       표준충전: "50A",
@@ -741,9 +741,9 @@ const productsData = {
       "작동온도 (방전)": "-30°C ~ 35°C",
       보관온도: "0°C ~ 45°C",
       "사이즈 (L x W x H)": "480 × 250 × 200mm",
-      무게: { ko: "약 50kg", en: "Approx. 50kg", cn: "约50kg" },
+      무게: { ko: "약 55kg", en: "Approx. 55kg", cn: "约55kg" },
       "케이스 / IP": "IP65",
-      "사이클 수명": { ko: "5000+ 사이클 (80% DOD)", en: "5000+ Cycles (80% DOD)", cn: "5000+ 循环（80% DOD）" },
+      "사이클 수명": { ko: "6000+ 사이클 (80% DOD)", en: "6000+ Cycles (80% DOD)", cn: "6000+ 循环（80% DOD）" },
     },
     features: [
       //   {
@@ -754,7 +754,7 @@ const productsData = {
       {
         icon: "fas fa-industry",
         title: { ko: "산업용 내구성", en: "Industrial Durability", cn: "工业耐用性" },
-        desc: { ko: "5000+ 사이클 장수명", en: "5000+ Cycle Long Life", cn: "5000+循环长寿命" },
+        desc: { ko: "6000+ 사이클 장수명", en: "6000+ Cycle Long Life", cn: "6000+循环长寿命" },
       },
       //   {
       //     icon: "fas fa-clock",
