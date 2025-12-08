@@ -299,7 +299,7 @@ const productsData = {
     icon: "fas fa-battery-full",
   },
   "novaECO-golf-36v": {
-    image: "images/products/n_48v120ah2.png",
+    image: "/images/products/n_48V120Ah2.png",
     name: {
       ko: "NOVAECO 골프카트 배터리 48v 120Ah ",
       en: "NOVAECO Golf Cart Battery 48v 120Ah ",
