@@ -197,7 +197,7 @@ const translations = {
 const productsData = {
   "novaECO-golf-48v": {
     // image: "images/products/골프카트 라이프 PO4 배터리 솔루션.png",
-    image: "images/products/48v105ah.png",
+    image: "images/products/n_48V105Ah.png",
     name: {
       ko: "NOVAECO LifePO4 Battery 48V 105Ah",
       en: "NOVAECO LifePO4 Battery 48V 105Ah",
@@ -299,7 +299,7 @@ const productsData = {
     icon: "fas fa-battery-full",
   },
   "novaECO-golf-36v": {
-    image: "images/products/골프카트 배터리 38V 105Ah.jpeg",
+    image: "images/products/n_48v120ah2.png",
     name: {
       ko: "NOVAECO 골프카트 배터리 48v 120Ah ",
       en: "NOVAECO Golf Cart Battery 48v 120Ah ",
@@ -374,7 +374,7 @@ const productsData = {
     icon: "fas fa-car-battery",
   },
   "novaECO-golf-72v": {
-    image: "images/products/리튬이온60V.png",
+    image: "images/products/n_골프카트배터리76v105ah.png",
     name: {
       ko: "NOVAECO 골프카트 배터리 76V 105Ah",
       en: "NOVAECO Golf Cart Battery 76V 105Ah",
@@ -456,7 +456,7 @@ const productsData = {
     icon: "fas fa-battery-full",
   },
   "novaECO-12v-600ah": {
-    image: "images/products/고소 작업대 배터리 복사.png",
+    image: "images/products/n_트럭고소작업대배터리24v230ah.png",
     name: {
       ko: "NOVAECO 트럭·고소작업대 배터리 12V 600Ah",
       en: "NOVAECO Truck·Aerial Platform Battery 12V 600Ah",
@@ -538,8 +538,91 @@ const productsData = {
     ],
     icon: "fas fa-battery-full",
   },
+  "novaECO-24v-230ah": {
+    image: "images/products/n_트럭고소작업대배터리24v230ah.png",
+    name: {
+      ko: "NOVAECO 트럭·고소작업대 배터리 24V 230Ah",
+      en: "NOVAECO Truck·Aerial Platform Battery 24V 230Ah",
+      cn: "NOVAECO 卡车·高空作业平台电池 24V 230Ah",
+    },
+    category: {
+      ko: "24V 트럭/고소작업대/청소차",
+      en: "24V Truck / Aerial Work Platform / Sweeper",
+      cn: "24V 卡车 / 高空作业平台 / 清扫车",
+    },
+    subtitle: {
+      ko: "24V 230Ah 대용량 리튬인산철 배터리",
+      en: "24V 230Ah High-Capacity LiFePO4 Battery",
+      cn: "24V 230Ah 大容量磷酸铁锂电池",
+    },
+    description: {
+      ko: "NOVAECO 24V 230Ah는 캠핑카, 레저 및 상업용 장비 시스템에 최적화된 대용량 배터리입니다. 첨단 제조 기술과 안정적인 BMS로 안전하고 오래 사용할 수 있습니다. 또한 NOVAENERGY만의 히팅 시스템이 적용되어 혹한기의 야외 환경에서도 안정적인 작동이 가능합니다 (-30℃).",
+
+      en: "The NOVAECO 12V 600Ah is a high-capacity battery optimized for camping cars, leisure activities, and commercial equipment systems. With advanced manufacturing technology and a stable BMS, it ensures safe and long-lasting performance. In addition, NOVAENERGY’s unique heating system allows reliable operation even in extreme outdoor winter conditions (-30℃).",
+
+      cn: "NOVAECO 12V 600Ah 是一款为露营车、休闲设备及商用设备系统优化的大容量电池。采用先进制造技术和稳定的 BMS，确保安全且耐用的性能。此外，凭借 NOVAENERGY 独有的加热系统，即使在严寒的户外环境中也能保持稳定运行（-30℃）。",
+    },
+
+    specs: {
+      "12.8V": "25.6V",
+      "230Ah": "230Ah",
+      "5,576Wh": "5,576Wh",
+      "약 55kg": { ko: "약 55kg", en: "Approx. 55kg", cn: "约55kg" },
+    },
+    detailedSpecs: {
+      모델명: { ko: "NOVAECO-24V-230AH (24V 시스템)", en: "NOVAECO-24V-230AHH (24V System)", cn: "NOVAECO-24V-230AH(24V系统）" },
+      "정격 전압": { ko: "25.6V (24V Nominal)", en: "25.6V (24V Nominal)", cn: "25.6V (24V标称)" },
+      "정격 용량": { ko: "230Ah", en: "230Ah", cn: "230Ah" },
+      에너지: { ko: "5,576Wh", en: "5,576Wh", cn: "5,576Wh" },
+      "표준 충전": { ko: "50A", en: "50A", cn: "50A" },
+      "지속 방전": { ko: "200A (연속)", en: "200A (Continuous)", cn: "200A（连续）" },
+      "충전 온도": { ko: "-30°C ~ 45°C", en: "-30°C ~ 45°C", cn: "-30°C ~ 45°C" },
+      "방전 온도": { ko: "-30°C ~ 60°C", en: "-30°C ~ 60°C", cn: "-30°C ~ 60°C" },
+      "보관 온도": { ko: "-20°C ~ 35°C", en: "-20°C ~ 35°C", cn: "-20°C ~ 35°C" },
+      "사이즈 (L×W×H)": { ko: "520 × 270 × 240mm", en: "520 × 270 × 240mm", cn: "520 × 270 × 240mm" },
+      무게: { ko: "55kg", en: "55kg", cn: "55kg" },
+      "케이스 / 방수 등급": { ko: "IP67", en: "IP67", cn: "IP67" },
+      "사이클 수명": { ko: "4500+ 사이클 (80% DOD)", en: "4500+ Cycles (80% DOD)", cn: "4500+ 循环（80% DOD）" },
+    },
+    features: [
+      {
+        icon: "fas fa-caravan",
+        title: {
+          ko: "트럭 최적화",
+          en: "Truck Optimized",
+          cn: "卡车优化",
+        },
+        desc: { ko: "대용량으로 장시간 사용", en: "Large Capacity for Extended Use", cn: "大容量长时间使用" },
+      },
+      {
+        icon: "fas fa-shield-virus",
+        title: { ko: "안전 BMS", en: "Safe BMS", cn: "安全BMS" },
+        desc: { ko: "과충전/과방전 보호", en: "Overcharge/Overdischarge Protection", cn: "过充/过放保护" },
+      },
+
+      {
+        icon: "fas fa-plug",
+        title: { ko: "빠른 충전", en: "Fast Charging", cn: "快速充电" },
+        desc: { ko: "2시간 완충 가능", en: "2-Hour Full Charge", cn: "2小时充满" },
+      },
+    ],
+    applications: {
+      ko: ["캠핑카 / RV", "트레일러, 트럭, 고소작업대", "산업용 장비"],
+      en: ["RV / Campers", "Trailers", "Industrial Equipment"],
+      cn: ["房车", "拖车", "工业设备"],
+    },
+    certifications: [
+      { name: "CE", description: { ko: "유럽 안전 인증", en: "European Safety Certification", cn: "欧洲安全认证" } },
+      { name: "RoHS", description: { ko: "유해물질 제한 지침", en: "Restriction of Hazardous Substances", cn: "有害物质限制指令" } },
+      { name: "UN38.3", description: { ko: "리튬배터리 운송 안전 인증", en: "Lithium Battery Transport Safety", cn: "锂电池运输安全认证" } },
+      { name: "ISO 9001", description: { ko: "품질경영시스템 인증", en: "Quality Management System", cn: "质量管理体系认证" } },
+      { name: "IP67", description: { ko: "완전 방진·방수 등급", en: "Complete Dust & Water Resistance", cn: "完全防尘防水等级" } },
+      { name: "FCC", description: { ko: "미국 연방통신위원회 인증", en: "US Federal Communications Commission", cn: "美国联邦通信委员会认证" } },
+    ],
+    icon: "fas fa-battery-full",
+  },
   "novaECO-12v-300ah": {
-    image: "images/products/DeepCycle.jpeg",
+    image: "images/products/n_캠핑카블루투스관제시스템300Ah.png",
     name: {
       ko: "NOVAECO 캠핑카 Bluetooth 관제 시스템 300Ah",
       en: "NOVAECO 00Ah RV Bluetooth Monitoring System",
@@ -619,7 +702,7 @@ const productsData = {
     icon: "fas fa-battery-three-quarters",
   },
   "novaECO-24v-300ah": {
-    image: "images/products/배터리내부 사진.png",
+    image: "images/products/n_트럭고소작업대용배터리24v300ah.png",
     name: {
       ko: "NOVAECO 24V 300Ah",
       en: "NOVAECO 24V 300Ah",
