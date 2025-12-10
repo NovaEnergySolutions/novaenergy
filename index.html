@@ -705,241 +705,293 @@
                 Battery Management System - 차세대 배터리 관리 기술
               </p>
 
-              <div style="margin-top: 40px; text-align: left; max-width: 800px; margin-left: auto; margin-right: auto">
-             
+             <div style="margin-top: 40px; max-width: 1100px; margin-left: auto; margin-right: auto">
+  <style>
+    .bms-section {
+      padding: 0;
+    }
 
+    .bms-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      margin-top: 16px;
+    }
 
-  <h3
-  style="color:#1e3a8a; font-weight:800; margin-top: 20px;"
-  data-ko="스마트한 배터리 보호"
-  data-en="Smart Battery Protection & Multi-Safety System"
-  data-cn="智能电池保护与多重安全系统"
->
-  스마트한 배터리 보호
-</h3>
+    .bms-card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 24px 22px 20px;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+      border: 1px solid #e2e8f0;
+      display: flex;
+      flex-direction: column;
+        text-align: start;
+      justify-content: flex-start;
+    }
 
-<p
-  data-ko="노바에너지의 BMS 시스템은 과충전·과방전·과전류를 완전히 제어해 배터리 수명을 극대화합니다."
-  data-en="Nova Energy's BMS system fully controls overcharge, over-discharge, and overcurrent to maximize battery lifespan."
-  data-cn="Nova Energy的BMS系统可全面控制过充、过放和过流，从而最大化电池寿命。"
->
-  노바에너지의 BMS 시스템은 과충전·과방전·과전류를 완전히 제어해 배터리 수명을 극대화합니다.
-</p>
+    .bms-card h3 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #1e3a8a;
+      margin: 0 0 8px;
+    }
 
-<ul style="margin-top: 8px; list-style-type: disc; padding-left: 20px; color: #444; line-height: 1.6">
+    .bms-card p {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #4a5568;
+      margin: 0 0 8px;
+      text-align: start;
+    }
 
-  <!-- 01 셀 레벨 보호 시스템 -->
-  <!-- <li
-    data-ko="셀 레벨 보호 시스템"
-    data-en="Cell-Level Protection System"
-    data-cn="电芯级保护系统"
-  >
-    셀 레벨 보호 시스템
-  </li> -->
+    .bms-card ul {
 
-  <!-- 02 열폭주 방지 시스템 -->
-  <li
-    data-ko="열폭주 방지 시스템"
-    data-en="Thermal Runaway Prevention System"
-    data-cn="热失控防护系统"
-  >
-    열폭주 방지 시스템
-  </li>
+      padding-left: 18px;
+      color: #4a5568;
+      font-size: 14px;
+      line-height: 1.7;
+    
+    }
 
-<li
-  data-ko="배터리 수명 예측 알고리즘"
-  data-en="Battery lifespan prediction algorithm"
-  data-cn="电池寿命预测算法"
->
-  배터리 수명 예측 알고리즘
-</li>
+    .bms-card li {
+      margin-bottom: 4px;
+    }
 
-</ul>
+    .bms-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      
+    }
 
+    @media (max-width: 640px) {
+      .bms-card {
+        padding: 20px 18px 18px;
+      }
+    }
+  </style>
 
-  <!-- 02 안전한 전력 관리 -->
-<h3
-  style="color:#1e3a8a; font-weight:800; margin-top: 20px;"
-  data-ko="안전한 전력 관리의 최전선"
-  data-en="The Frontline of Safe Power Management"
-  data-cn="安全电力管理的最前沿"
->
-  안전한 전력 관리의 최전선
-</h3>
+  <section class="bms-section">
+    <div class="bms-grid">
+      <!-- 01 스마트한 배터리 보호 -->
+      <article class="bms-card">
+        <div class="bms-badge">01</div>
+        <h3
+          data-ko="스마트한 배터리 보호"
+          data-en="Smart Battery Protection & Multi-Safety System"
+          data-cn="智能电池保护与多重安全系统"
+        >
+          스마트한 배터리 보호
+        </h3>
 
-<p
-  data-ko="최첨단 보호 회로와 정밀한 전압 및 전류 검출 기능으로 배터리의 안전성을 확보합니다."
-  data-en="Advanced protection circuits and precise voltage/current detection enhance battery safety"
-  data-cn="通过先进的保护电路和精密的电压/电流检测确保电池安全。"
->
-  최첨단 보호 회로와 정밀한 전압 및 전류 검출 기능으로 배터리의 안전성을 확보합니다.
-</p>
+        <p
+          data-ko="노바에너지의 BMS 시스템은 과충전·과방전·과전류를 완전히 제어해 배터리 수명을 극대화합니다."
+          data-en="Nova Energy's BMS system fully controls overcharge, over-discharge, and overcurrent to maximize battery lifespan."
+          data-cn="Nova Energy的BMS系统可全面控制过充、过放和过流，从而最大化电池寿命。"
+        >
+          노바에너지의 BMS 시스템은 과충전·과방전·과전류를 완전히 제어해 배터리 수명을 극대화합니다.
+        </p>
 
-<ul style="margin-top: 8px; list-style-type: disc; padding-left: 20px; color: #444; line-height: 1.6">
-  <li
-    data-ko="0.01V 단위의 정밀 전압 측정"
-    data-en="Precise voltage measurement at 0.01V intervals"
-    data-cn="0.01V级精密电压测量"
-  >
-    0.01V 단위의 정밀 전압 측정
-  </li>
+        <ul>
+          <li
+            data-ko="열폭주 방지 시스템"
+            data-en="Thermal Runaway Prevention System"
+            data-cn="热失控防护系统"
+          >
+            열폭주 방지 시스템
+          </li>
 
-  <li
-    data-ko="±0.5℃ 오차 범위의 온도 모니터링"
-    data-en="Temperature monitoring with ±0.5℃ accuracy"
-    data-cn="±0.5℃精度的温度监控"
-  >
-    ±0.5℃ 오차 범위의 온도 모니터링
-  </li>
+          <li
+            data-ko="배터리 수명 예측 알고리즘"
+            data-en="Battery lifespan prediction algorithm"
+            data-cn="电池寿命预测算法"
+          >
+            배터리 수명 예측 알고리즘
+          </li>
+        </ul>
+      </article>
 
-  <li
-    data-ko="클라우드 기반 데이터 저장 및 분석"
-    data-en="Cloud-based data storage and analytics"
-    data-cn="基于云端的数据存储与分析"
-  >
-    클라우드 기반 데이터 저장 및 분석
-  </li>
-</ul>
+      <!-- 02 안전한 전력 관리의 최전선 -->
+      <article class="bms-card">
+        <div class="bms-badge">02</div>
+        <h3
+          data-ko="안전한 전력 관리의 최전선"
+          data-en="The Frontline of Safe Power Management"
+          data-cn="安全电力管理的最前沿"
+        >
+          안전한 전력 관리의 최전선
+        </h3>
 
+        <p
+          data-ko="최첨단 보호 회로와 정밀한 전압 및 전류 검출 기능으로 배터리의 안전성을 확보합니다."
+          data-en="Advanced protection circuits and precise voltage/current detection enhance battery safety."
+          data-cn="通过先进的保护电路和精密的电压/电流检测确保电池安全。"
+        >
+          최첨단 보호 회로와 정밀한 전압 및 전류 검출 기능으로 배터리의 안전성을 확보합니다.
+        </p>
 
-  <!-- 03 지능형 셀 밸런싱 -->
- <!-- 03 효율적인 에너지 균형! -->
-<h3
-  style="color:#1e3a8a; font-weight:800; margin-top: 20px;"
-  data-ko="효율적인 에너지 균형!"
-  data-en="Intelligent Cell Balancing for Maximum Efficiency"
-  data-cn="智能电芯均衡，实现最高效率"
->
-  효율적인 에너지 균형!
-</h3>
+        <ul>
+          <li
+            data-ko="0.01V 단위의 정밀 전압 측정"
+            data-en="Precise voltage measurement at 0.01V intervals"
+            data-cn="0.01V级精密电压测量"
+          >
+            0.01V 단위의 정밀 전압 측정
+          </li>
 
-<p
-  data-ko="셀 밸런싱 기능을 통해 모든 셀이 균일한 성능을 유지하고 배터리 효율을 극대화합니다."
-  data-en="Cell balancing keeps all cells performing evenly and maximizes overall battery efficiency."
-  data-cn="电芯均衡功能可使所有电芯保持一致性能，并最大化电池效率。"
->
-  셀 밸런싱 기능을 통해 모든 셀이 균일한 성능을 유지하고 배터리 효율을 극대화합니다.
-</p>
+          <li
+            data-ko="±0.5℃ 오차 범위의 온도 모니터링"
+            data-en="Temperature monitoring with ±0.5℃ accuracy"
+            data-cn="±0.5℃精度的温度监控"
+          >
+            ±0.5℃ 오차 범위의 온도 모니터링
+          </li>
 
-<ul style="margin-top: 8px; list-style-type: disc; padding-left: 20px; color: #444; line-height: 1.6">
+          <li
+            data-ko="클라우드 기반 데이터 저장 및 분석"
+            data-en="Cloud-based data storage and analytics"
+            data-cn="基于云端的数据存储与分析"
+          >
+            클라우드 기반 데이터 저장 및 분석
+          </li>
+        </ul>
+      </article>
 
-  <!-- 01 자동 셀 밸런싱 알고리즘 -->
-  <li
-    data-ko="자동 셀 밸런싱 알고리즘"
-    data-en="Automatic cell balancing algorithm"
-    data-cn="自动电芯均衡算法"
-  >
-    자동 셀 밸런싱 알고리즘
-  </li>
+      <!-- 03 효율적인 에너지 균형 -->
+      <article class="bms-card">
+        <div class="bms-badge">03</div>
+        <h3
+          data-ko="효율적인 에너지 균형!"
+          data-en="Intelligent Cell Balancing for Maximum Efficiency"
+          data-cn="智能电芯均衡，实现最高效率"
+        >
+          효율적인 에너지 균형!
+        </h3>
 
-  <!-- 02 불균형 셀 조기 감지 및 보정 -->
-  <li
-    data-ko="불균형 셀 조기 감지 및 보정"
-    data-en="Early detection and correction of unbalanced cells"
-    data-cn="电芯不平衡的早期检测与校正"
-  >
-    불균형 셀 조기 감지 및 보정
-  </li>
+        <p
+          data-ko="셀 밸런싱 기능을 통해 모든 셀이 균일한 성능을 유지하고 배터리 효율을 극대화합니다."
+          data-en="Cell balancing keeps all cells performing evenly and maximizes overall battery efficiency."
+          data-cn="电芯均衡功能可使所有电芯保持一致性能，并最大化电池效率。"
+        >
+          셀 밸런싱 기능을 통해 모든 셀이 균일한 성능을 유지하고 배터리 효율을 극대화합니다.
+        </p>
 
-  <!-- 03 충방전 사이클 최적화 -->
-  <li
-    data-ko="충방전 사이클 최적화"
-    data-en="Optimization of charge and discharge cycles"
-    data-cn="充放电循环优化"
-  >
-    충방전 사이클 최적화
-  </li>
+        <ul>
+          <li
+            data-ko="자동 셀 밸런싱 알고리즘"
+            data-en="Automatic cell balancing algorithm"
+            data-cn="自动电芯均衡算法"
+          >
+            자동 셀 밸런싱 알고리즘
+          </li>
 
-</ul>
+          <li
+            data-ko="불균형 셀 조기 감지 및 보정"
+            data-en="Early detection and correction of unbalanced cells"
+            data-cn="电芯不平衡的早期检测与校正"
+          >
+            불균형 셀 조기 감지 및 보정
+          </li>
 
+          <li
+            data-ko="충방전 사이클 최적화"
+            data-en="Optimization of charge and discharge cycles"
+            data-cn="充放电循环优化"
+          >
+            충방전 사이클 최적화
+          </li>
+        </ul>
+      </article>
 
-  <!-- 04 실시간 모니터링 -->
-  <h3
-    style="color:#1e3a8a; font-weight:800; margin-top: 20px;"
-    data-ko="스마트 실시간 모니터링으로 최고의 성능!"
-    data-en="Smart Real-Time Monitoring for Optimal Performance"
-    data-cn="智能实时监控，保持最佳性能"
-  >
-    스마트 실시간 모니터링으로 최고의 성능!
-  </h3>
-  <p
-    data-ko="실시간 모니터링 기능을 탑재하여 배터리 상태를 직관적으로 확인하면서 최적의 성능을 유지할 수 있습니다."
-    data-en="Real-time voltage, current, and temperature data provides intuitive insight into battery conditions, maintaining optimal performance."
-    data-cn="实时电压、电流、温度数据让您直观了解电池状态，并维持最佳性能。"
-  >
-    실시간 모니터링 기능을 탑재하여 배터리 상태를 직관적으로 확인하면서 최적의 성능을 유지할 수 있습니다.
-  </p>
+      <!-- 04 스마트 실시간 모니터링 -->
+      <article class="bms-card">
+        <div class="bms-badge">04</div>
+        <h3
+          data-ko="스마트 실시간 모니터링으로 최고의 성능!"
+          data-en="Smart Real-Time Monitoring for Optimal Performance"
+          data-cn="智能实时监控，保持最佳性能"
+        >
+          스마트 실시간 모니터링으로 최고의 성능!
+        </h3>
 
-  <ul style="margin-top: 8px; list-style-type: disc; padding-left: 20px; color: #444; line-height: 1.6">
+        <p
+          data-ko="실시간 모니터링 기능을 탑재하여 배터리 상태를 직관적으로 확인하면서 최적의 성능을 유지할 수 있습니다."
+          data-en="Real-time voltage, current, and temperature data provides intuitive insight into battery conditions, maintaining optimal performance."
+          data-cn="实时电压、电流、温度数据让您直观了解电池状态，并维持最佳性能。"
+        >
+          실시간 모니터링 기능을 탑재하여 배터리 상태를 직관적으로 확인하면서 최적의 성능을 유지할 수 있습니다.
+        </p>
 
-  <!-- 01 셀 레벨 보호 시스템 -->
-  <li
-    data-ko="셀 레벨 보호 시스템"
-    data-en="Cell-Level Protection System"
-    data-cn="电芯级保护系统"
-  >
-    셀 레벨 보호 시스템
-  </li>
+        <ul>
+          <li
+            data-ko="셀 레벨 보호 시스템"
+            data-en="Cell-Level Protection System"
+            data-cn="电芯级保护系统"
+          >
+            셀 레벨 보호 시스템
+          </li>
 
-  <!-- 02 열폭주 방지 시스템 -->
-  <!-- <li
-    data-ko="열폭주 방지 시스템"
-    data-en="Thermal Runaway Prevention System"
-    data-cn="热失控防护系统"
-  >
-    열폭주 방지 시스템
-  </li> -->
+          <li
+            data-ko="비상 차단 메커니즘"
+            data-en="Emergency Shutdown Mechanism"
+            data-cn="紧急切断机制"
+          >
+            비상 차단 메커니즘
+          </li>
+        </ul>
+      </article>
 
-  <!-- 03 비상 차단 메커니즘 -->
-  <li
-    data-ko="비상 차단 메커니즘"
-    data-en="Emergency Shutdown Mechanism"
-    data-cn="紧急切断机制"
-  >
-    비상 차단 메커니즘
-  </li>
+      <!-- 05 예측 유지보수 & 호환성 -->
+      <article class="bms-card">
+        <div class="bms-badge">05</div>
+        <h3
+          data-ko="예측 유지보수와 폭넓은 호환성"
+          data-en="Predictive Maintenance & Wide Compatibility"
+          data-cn="预测性维护与广泛兼容性"
+        >
+          예측 유지보수와 폭넓은 호환성
+        </h3>
 
-</ul>
+        <p
+          data-ko="AI 기반 데이터 분석으로 배터리 수명을 예측하고 유지보수 일정을 자동 최적화하며, 다양한 전압과 용량을 지원해 산업용부터 EV까지 폭넓게 적용 가능합니다."
+          data-en="AI-based analytics predict battery lifespan, optimize maintenance schedules, and support a wide range of voltages for industrial to EV applications."
+          data-cn="基于AI的数据分析预测电池寿命，自动优化维护计划，并支持多种电压与容量，从工业用到EV都可适用。"
+        >
+          다양한 전압과 용량을 지원하여 다양한 리튬 배터리 응용 제품에 완벽하게 적용 가능합니다.<br />
+          또한 AI 기반 데이터 분석으로 배터리 상태 예측 및 유지보수 최적화를 제공합니다.
+        </p>
 
-  <!-- 05 예측 유지보수 & 호환성 -->
-  <h3
-    style="color:#1e3a8a; font-weight:800; margin-top: 20px;"
-    data-ko="예측 유지보수와 폭넓은 호환성"
-    data-en="Predictive Maintenance & Wide Compatibility"
-    data-cn="预测性维护与广泛兼容性"
-  >
-    산업용부터 EV까지 완벽한 호환성
-  </h3>
-  <p
-    data-ko="AI 기반 데이터 분석으로 배터리 수명을 예측하고 유지보수 일정을 자동 최적화하며, 다양한 전압과 용량을 지원해 산업용부터 EV까지 폭넓게 적용 가능합니다."
-    data-en="AI-based analytics predict battery lifespan, optimize maintenance schedules, and support a wide range of voltages for industrial to EV applications."
-    data-cn="基于AI的数据分析预测电池寿命，自动优化维护计划，并支持多种电压与容量，从工业用到EV都可适用。"
-  >
-    다양한 전압과 용량을 지원하여 다양한 리튬 배터리 응용 제품에 완벽하게 적용 가능합니다.<br/>
-    또한 AI 기반 데이터 분석으로 배터리 상태 예측 및 유지보수 최적화를 제공합니다.
-  </p>
+        <ul>
+          <li
+            data-ko="성능 저하 조기 경고 시스템"
+            data-en="Early warning system for performance degradation"
+            data-cn="性能下降早期预警系统"
+          >
+            성능 저하 조기 경고 시스템
+          </li>
 
-  <ul style="margin-top: 8px; list-style-type: disc; padding-left: 20px; color: #444; line-height: 1.6">
+          <li
+            data-ko="유지보수 일정 자동 최적화"
+            data-en="Automatic optimization of maintenance schedules"
+            data-cn="维护计划自动优化"
+          >
+            유지보수 일정 자동 최적화
+          </li>
+        </ul>
+      </article>
+    </div>
+  </section>
+</div>
 
-<li
-  data-ko="성능 저하 조기 경고 시스템"
-  data-en="Early warning system for performance degradation"
-  data-cn="性能下降早期预警系统"
->
-  성능 저하 조기 경고 시스템
-</li>
-
-<li
-  data-ko="유지보수 일정 자동 최적화"
-  data-en="Automatic optimization of maintenance schedules"
-  data-cn="维护计划自动优化"
->
-  유지보수 일정 자동 최적화
-</li>
-</ul>
-
- </div>
-  </div>
 
   <div style="text-align: center; margin-top: 100px;">
 <div style="font-size: 12px; font-weight: 600; color: #999; letter-spacing: 3px; margin-bottom: 20px; text-transform: uppercase">LITHIUM BATTERY TYPES & FEATURES</div>
@@ -1971,55 +2023,7 @@
     <div class="swiper productSwiper" data-aos="fade-up" style="max-width: 1440px;">
       <div class="swiper-wrapper">
         <!-- 골프카트 48V → golf -->
-        <div class="swiper-slide">
-          <div class="product-card" data-product="novaECO-golf-48v" data-category="golf">
-            <div
-              class="product-badge"
-              style="
-                position: absolute;
-                top: 15px;
-                left: 15px;
-                background: linear-gradient(135deg, #1e3a8a 0%, #64748b 100%);
-                color: white;
-                padding: 8px 15px;
-                border-radius: 20px;
-                font-size: 12px;
-                font-weight: 600;
-                z-index: 10;
-              "
-            >
-              <span data-ko="베스트셀러" data-en="Best Seller" data-cn="畅销产品">베스트셀러</span>
-            </div>
-            <div class="product-image">
-              <!-- image: "images/products/골프카트 라이프 PO4 배터리 솔루션.png", -->
-              <img
-                src="images/products/n_48V105Ah.png"
-                alt="NOVAECO Golf Cart 48V"
-                onerror="this.parentElement.innerHTML='<div class=\'image-placeholder\'><i class=\'fas fa-golf-ball\'></i></div>'"
-              />
-            </div>
-            <div class="product-info">
-              <div class="product-brand" style="color: #1e3a8a; font-weight: 700; font-size: 14px; margin-bottom: 5px">NOVA ENERGY</div>
-              <h3
-                data-ko="NOVAECO 골프카트 배터리 48V 105Ah"
-                data-en="NOVAECO Golf Cart Battery 48V 105Ah"
-                data-cn="NOVAECO高尔夫球车电池 48V 105Ah"
-              >
-                NOVAECO 골프카트 배터리 48V 105Ah
-              </h3>
-              <p class="product-spec" data-ko="YAMAHA·E-Z-GO 골프카트 전용" data-en="For YAMAHA·E-Z-GO Golf Carts" data-cn="YAMAHA·E-Z-GO高尔夫球车专用">
-                YAMAHA·E-Z-GO 골프카트 전용 club car
-              </p>
-              <ul class="product-features">
-                <li data-ko="6000 사이클 장수명" data-en="6000 Cycles Long Life" data-cn="6000次长寿命">6000 사이클 장수명</li>
-                <li data-ko="낮은 온도 안정 방전" data-en="Low Temp Stable" data-cn="低温稳定放电">낮은 온도 안정 방전</li>
-                <li data-ko="3시간 고속 충전" data-en="3hr Fast Charging" data-cn="3小时快速充电">3시간 고속 충전</li>
-                <li data-ko="5년간 70% 비용절감" data-en="70% Cost Saving" data-cn="节省70%成本">5년간 70% 비용절감</li>
-              </ul>
-              <a href="product-detail.html?id=novaECO-golf-48v" class="btn btn-small" data-ko="상세보기" data-en="View Details" data-cn="查看详情">상세보기</a>
-            </div>
-          </div>
-        </div>
+        
 
         <!-- 24V 트럭/고소작업대/청소차 → truck,cleaning 둘 다 -->
         <div class="swiper-slide">
