@@ -697,8 +697,23 @@
     padding: 40px;
   }
 }
+.contact-text-wrap img {
+  width: 84px;
+  height: 80px;
+}
 
 @media (max-width: 768px) {
+  .contact-text-wrap {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .contact-text-wrap img {
+    width: 62px;
+    height: 60px;
+  }
+  .contacth2 {
+    font-size: 20px;
+  }
   /* 컨테이너 여백 */
   .container {
     padding: 0 24px;

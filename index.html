@@ -223,7 +223,7 @@
 
           <div class="about-image" data-aos="fade-left" data-aos-duration="1000">
             <div class="experience-section" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1)">
-              <h4 style="font-size: 22px; font-weight: 700; margin-bottom: 15px; color: #2d3748" data-ko="글로벌 프로젝트 경험" data-en="Global Project Experience" data-cn="全球项目经验">
+              <h4 class="section-title" style="font-size: 22px; font-weight: 700; margin-bottom: 15px; color: #2d3748" data-ko="글로벌 프로젝트 경험" data-en="Global Project Experience" data-cn="全球项目经验">
                 글로벌 프로젝트 경험
               </h4>
               <p
@@ -651,7 +651,7 @@
           </div>
 <div class="battery-cells-wrapper" style="margin-bottom: 60px;">
   <h4 class="battery-cells-title"
-      style="text-align: center; font-size: 14px; font-weight: 600; color: #666; margin-bottom: 25px; letter-spacing: 3px; text-transform: uppercase;"
+      style="text-align: center; font-size: 14px; text font-weight: 600; color: #666; margin-bottom: 25px; letter-spacing: 3px; text-transform: uppercase;"
       data-ko="세계 최상급 BMS 시스템"
       data-en="Using World's Highest Quality Battery Cells"
       data-cn="使用世界最高品质的电池单元">
@@ -692,10 +692,10 @@
 
 
           <div style="max-width: 1200px; margin: 0 auto; padding: 20px 0px">
-            <div style="text-align: center; margin-bottom: 60px; padding: 40px 20px; background: rgba(255, 255, 255, 0.95); border-radius: 20px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1)">
+            <div style="text-align: center; margin-bottom: 60px; padding: 40px 4px; background: rgba(255, 255, 255, 0.95); border-radius: 20px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1)">
               <div style="font-size: 12px; font-weight: 600; color: #999; letter-spacing: 3px; margin-bottom: 20px; text-transform: uppercase">World-class BMS</div>
 
-              <h3 style="font-size: 40px; font-weight: 800; color: #0a0a0a" data-ko="세계 최고 수준의 BMS" data-en="World-Class BMS" data-cn="世界一流的 BMS">세계 최상급 BMS 시스템</h3>
+              <h3 class="section-title" style="font-size: 40px; font-weight: 800; color: #0a0a0a" data-ko="세계 최고 수준의 BMS" data-en="World-Class BMS" data-cn="世界一流的 BMS">세계 최상급 BMS 시스템</h3>
               <p
                 style="color: #666; font-size: 16px; font-weight: 400; max-width: 700px; margin: 0 auto; line-height: 1.7"
                 data-ko="Battery Management System - 차세대 배터리 관리 기술"
@@ -713,7 +713,7 @@
 
     .bms-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(3,1fr);
       gap: 24px;
       margin-top: 16px;
     }
@@ -726,11 +726,12 @@
       border: 1px solid #e2e8f0;
       display: flex;
       flex-direction: column;
-        text-align: start;
+      text-align: start;
       justify-content: flex-start;
+      width: 100%;
     }
 
-    .bms-card h3 {
+    .bms-card h4 {
       font-size: 20px;
       font-weight: 800;
       color: #1e3a8a;
@@ -774,6 +775,12 @@
     }
 
     @media (max-width: 640px) {
+          .bms-grid {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 24px;
+      margin-top: 16px;
+    }
       .bms-card {
         padding: 20px 18px 18px;
       }
@@ -785,13 +792,13 @@
       <!-- 01 스마트한 배터리 보호 -->
       <article class="bms-card">
         <div class="bms-badge">01</div>
-        <h3
+        <h4
           data-ko="스마트한 배터리 보호"
           data-en="Smart Battery Protection & Multi-Safety System"
           data-cn="智能电池保护与多重安全系统"
         >
           스마트한 배터리 보호
-        </h3>
+        </h4>
 
         <p
           data-ko="노바에너지의 BMS 시스템은 과충전·과방전·과전류를 완전히 제어해 배터리 수명을 극대화합니다."
@@ -823,13 +830,13 @@
       <!-- 02 안전한 전력 관리의 최전선 -->
       <article class="bms-card">
         <div class="bms-badge">02</div>
-        <h3
+        <h4
           data-ko="안전한 전력 관리의 최전선"
           data-en="The Frontline of Safe Power Management"
           data-cn="安全电力管理的最前沿"
         >
           안전한 전력 관리의 최전선
-        </h3>
+        </h4>
 
         <p
           data-ko="최첨단 보호 회로와 정밀한 전압 및 전류 검출 기능으로 배터리의 안전성을 확보합니다."
@@ -869,13 +876,13 @@
       <!-- 03 효율적인 에너지 균형 -->
       <article class="bms-card">
         <div class="bms-badge">03</div>
-        <h3
+        <h4
           data-ko="효율적인 에너지 균형!"
           data-en="Intelligent Cell Balancing for Maximum Efficiency"
           data-cn="智能电芯均衡，实现最高效率"
         >
           효율적인 에너지 균형!
-        </h3>
+        </h4>
 
         <p
           data-ko="셀 밸런싱 기능을 통해 모든 셀이 균일한 성능을 유지하고 배터리 효율을 극대화합니다."
@@ -915,13 +922,13 @@
       <!-- 04 스마트 실시간 모니터링 -->
       <article class="bms-card">
         <div class="bms-badge">04</div>
-        <h3
+        <h4
           data-ko="스마트 실시간 모니터링으로 최고의 성능!"
           data-en="Smart Real-Time Monitoring for Optimal Performance"
           data-cn="智能实时监控，保持最佳性能"
         >
           스마트 실시간 모니터링으로 최고의 성능!
-        </h3>
+        </h4>
 
         <p
           data-ko="실시간 모니터링 기능을 탑재하여 배터리 상태를 직관적으로 확인하면서 최적의 성능을 유지할 수 있습니다."
@@ -953,13 +960,13 @@
       <!-- 05 예측 유지보수 & 호환성 -->
       <article class="bms-card">
         <div class="bms-badge">05</div>
-        <h3
+        <h4
           data-ko="예측 유지보수와 폭넓은 호환성"
           data-en="Predictive Maintenance & Wide Compatibility"
           data-cn="预测性维护与广泛兼容性"
         >
           예측 유지보수와 폭넓은 호환성
-        </h3>
+        </h4>
 
         <p
           data-ko="AI 기반 데이터 분석으로 배터리 수명을 예측하고 유지보수 일정을 자동 최적화하며, 다양한 전압과 용량을 지원해 산업용부터 EV까지 폭넓게 적용 가능합니다."
@@ -1506,10 +1513,10 @@
 
             <div class="battery-features-grid" style="gap: 2px; background: #f5f5f5; max-width: 1200px; margin: 0 auto">
               <!-- 01 화재안전성 -->
-              <div style="background: #fafafa; padding: 45px 40px; border-bottom: 2px solid #171344">
+              <div class="battery-card2"  style="background: #fafafa;  border-bottom: 2px solid #171344">
                 <div style="display: flex; align-items: baseline; gap: 15px; margin-bottom: 25px">
                   <span style="font-size: 32px; font-weight: 900; color: #0d0e68">01</span>
-                  <h5 style="color: #1a1a1a; font-size: 32px; font-weight: 700; margin: 0; letter-spacing: -0.5px" data-ko="화재안전성" data-en="Fire Safety" data-cn="火灾安全性">화재 안전성</h5>
+                  <h5 style="color: #1a1a1a; font-size: 24px;  font-weight: 700; margin: 0; letter-spacing: -0.5px" data-ko="화재안전성" data-en="Fire Safety" data-cn="火灾安全性">화재 안전성</h5>
                 </div>
                    <img src="/images/function/Group 8.png" alt="열관리시스템" style="margin: 20px; width: 100%;"/>
                 <ul style="list-style: none; padding: 0; margin: 0; color: #555; line-height: 2">
@@ -1536,10 +1543,10 @@
               </div>
 
               <!-- 02 수명 -->
-              <div style="background: #fafafa; padding: 45px 16px; border-bottom: 2px solid #171344">
+              <div class="battery-card2"  style="background: #fafafa;  border-bottom: 2px solid #171344">
                 <div style="display: flex; align-items: baseline; gap: 15px; margin-bottom: 25px">
                   <span style="font-size: 32px; font-weight: 900; color: #0d0e68">02</span>
-                  <h5 style="color: #1a1a1a; font-size: 32px; font-weight: 700; margin: 0; letter-spacing: -0.5px" 
+                  <h5 style="color: #1a1a1a; font-size: 24px; font-weight: 700; margin: 0; letter-spacing: -0.5px; word-break: keep-all;" 
                   
   data-ko="배터리 시스템 테스트 능력"
   data-en="Battery System Testing Capability"
@@ -1553,10 +1560,10 @@
               </div>
 
               <!-- 03 운영 편의 -->
-              <div style="background: #fafafa; padding: 45px 40px; border-bottom: 2px solid #171344">
+              <div class="battery-card2" style="background: #fafafa;  border-bottom: 2px solid #171344">
                 <div style="display: flex; align-items: baseline; gap: 15px; margin-bottom: 25px">
                   <span style="font-size: 32px; font-weight: 900; color: #0d0e68">03</span>
-                  <h5 style="color: #1a1a1a; font-size: 32px; font-weight: 700; margin: 0; letter-spacing: -0.5px" 
+                  <h5 style="color: #1a1a1a; font-size: 24px; font-weight: 700; margin: 0; letter-spacing: -0.5px; word-break: keep-all;" 
   data-ko="안전방지 설계 디자인과 검증"
   data-en="Safety-Prevention Design & Verification"
   data-cn="安全防护设计与验证"
@@ -1583,10 +1590,10 @@
               </div>
 
               <!-- 04 성능 -->
-              <div style="background: #fafafa; padding: 45px 40px; border-bottom: 2px solid #171344">
+              <div  class="battery-card2" style="background: #fafafa; border-bottom: 2px solid #171344">
                 <div style="display: flex; align-items: baseline; gap: 15px; margin-bottom: 25px">
                   <span style="font-size: 32px; font-weight: 900; color: #0d0e68">04</span>
-                  <h5 style="color: #1a1a1a; font-size: 32px; font-weight: 700; margin: 0; letter-spacing: -0.5px"  data-ko="성능" data-en="Performance" data-cn="性能">성능</h5>
+                  <h5 style="color: #1a1a1a; font-size: 24px; font-weight: 700; margin: 0; letter-spacing: -0.5px"  data-ko="성능" data-en="Performance" data-cn="性能">성능</h5>
                 </div>
                 <ul style="list-style: none; padding: 0; margin: 0; color: #555; line-height: 2">
                   <li style="margin-bottom: 12px; font-size: 14px; padding-left: 20px; position: relative">
@@ -1638,14 +1645,14 @@
               </div>
 
               <!-- 05 BMS - full width -->
-              <div style="background: #fafafa; padding: 45px 40px; border-bottom: 2px solid #171344">
+              <div  class="battery-card2" style="background: #fafafa; ">
                 <div style="display: flex; align-items: baseline; gap: 15px; margin-bottom: 25px">
                   <span style="font-size: 32px; font-weight: 900; color: #0d0e68">05</span>
-                  <h5 style="color: #1a1a1a; font-size: 32px; font-weight: 700; margin: 0; letter-spacing: -0.5px"  data-ko="BMS" data-en="BMS" data-cn="BMS">
+                  <h5 style="color: #1a1a1a; font-size: 24px; font-weight: 700; margin: 0; letter-spacing: -0.5px"  data-ko="BMS" data-en="BMS" data-cn="BMS">
                     BMS <span style="color: #999; font-weight: 400; font-size: 16px">Battery Management System</span>
                   </h5>
                 </div>
-                <ul style="list-style: none; padding: 0; margin: 0; color: #555; line-height: 2; columns: 2; column-gap: 60px">
+                <ul style="list-style: none; padding: 0; margin: 0; color: #555; line-height: 2;  column-gap: 60px">
                   <li style="margin-bottom: 12px; font-size: 14px; padding-left: 20px; position: relative; break-inside: avoid">
   <span style="position: absolute; left: 0; color: #1a1a1a">—</span>
   <span
@@ -2645,13 +2652,13 @@
 >
   품질과 신뢰로 보답하는 노바에너지입니다.
 </p>
-            <div style="display: flex; gap:20px; align-items: center; margin:0px;">
-              <img src="images/contact/전화.png" alt="Phone Icon" style="width:84px; height: 80px; margin-top:20px;"/>
-            <h2>010-9469-1109</h2>
+            <div class="contact-text-wrap"  style="display: flex; gap:20px; margin:0px;">
+              <img src="images/contact/전화.png" alt="Phone Icon" style=" margin-top:20px;"/>
+            <h2 class="contacth2">010-9469-1109</h2>
             </div>
-            <div style="display: flex; gap:20px; align-items: center; margin:40px 0;">
-              <img src="images/contact/이메일.png" alt="Phone Icon" style="width:84px; height: 80px; margin-top:20px;"/>
-            <h2>contact<br style="margin: 0;"/>@novaenergy.co.kr</h2>
+            <div class="contact-text-wrap" style="display: flex; gap:20px;  margin:20px 0;">
+              <img src="images/contact/이메일.png" alt="Phone Icon" style="margin-top:20px;"/>
+            <h2 class="contacth2">contact<br style="margin: 0;"/>@novaenergy.co.kr</h2>
             </div>
 <div style="padding: 20px 0; border-top: 1px solid rgba(255, 255, 255, 0.2);">
   <p
