@@ -418,6 +418,7 @@ body {
 }
 
 .battery-table-wrap {
+  width: 100%;
   border-radius: 14px;
   border: 1px solid rgba(120, 180, 255, 0.5);
   overflow: hidden;
@@ -484,6 +485,25 @@ body {
 
 /* 모바일에서 비디오 최적화 */
 @media (max-width: 768px) {
+  .product-categories {
+    justify-content: center;
+    margin: 24px 0;
+  }
+
+  .product-category {
+    flex: 0 0 calc(50% - 12px); /* 2열 */
+    justify-content: center;
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+  .battery-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .battery-table {
+    min-width: 720px; /* ← 이게 핵심 */
+  }
   .battery-card2 {
     padding: 20px 0px;
   }
@@ -1614,10 +1634,22 @@ section {
 
   /* 제품 카테고리 버튼 */
   .product-categories {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: auto;
-    flex-wrap: wrap !important;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+  }
+
+  .product-category {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 9999px;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap;
   }
 
   .product-categories > div {
@@ -2072,6 +2104,10 @@ section {
     overflow-x: hidden;
     max-width: 100vw;
     width: 100%;
+  }
+
+  .product-category {
+    flex: 0 0 100%; /* 1열 */
   }
 
   .contact-wrapper {
