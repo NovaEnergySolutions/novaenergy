@@ -458,19 +458,19 @@ const productsData = {
   "novaECO-12v-600ah": {
     image: "images/products/r_12V600.png",
     name: {
-      ko: "NOVAECO 트럭·고소작업대 배터리 12V 600Ah",
-      en: "NOVAECO Truck·Aerial Platform Battery 12V 600Ah",
-      cn: "NOVAECO 卡车·高空作业平台电池 12V 600Ah",
+      ko: "NOVAECO 캠핑·레저전용 배터리 12V 600Ah",
+      en: "NOVAECO Camping & Leisure Dedicated Battery 12V 600Ah",
+      cn: "NOVAECO 露营·休闲专用电池 12V 600Ah",
     },
     category: {
-      ko: "12V 트럭/고소작업대/청소차",
-      en: "12V Truck / Aerial Work Platform / Sweeper",
+      ko: "12V 캠핑/레저전용",
+      en: "12V Camping / Leisure Dedicated",
       cn: "12V 卡车 / 高空作业平台 / 清扫车",
     },
     subtitle: {
       ko: "12V 600Ah 대용량 리튬인산철 배터리",
       en: "12V 600Ah High-Capacity LiFePO4 Battery",
-      cn: "12V 600Ah 大容量磷酸铁锂电池",
+      cn: "12V 600Ah 露营 / 休闲专用",
     },
     description: {
       ko: "NOVAECO 12V 600Ah는 캠핑카, 레저 및 상업용 장비 시스템에 최적화된 대용량 배터리입니다. 첨단 제조 기술과 안정적인 BMS로 안전하고 오래 사용할 수 있습니다. 또한 NOVAENERGY만의 히팅 시스템이 적용되어 혹한기의 야외 환경에서도 안정적인 작동이 가능합니다 (-30℃).",
