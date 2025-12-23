@@ -482,7 +482,7 @@ const productsData = {
 
     specs: {
       "12.8V": "12.8V",
-      "230Ah": "230Ah",
+      "600Ah": "600Ah",
       "5,576Wh": "5,576Wh",
       "약 55kg": { ko: "약 55kg", en: "Approx. 55kg", cn: "约55kg" },
     },
