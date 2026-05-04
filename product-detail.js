@@ -236,7 +236,7 @@ const productsData = {
       "주행거리 (완충후)": { ko: "64-81km (40-50 miles)", en: "64-81km (40-50 miles)", cn: "64-81km（40-50英里）" },
       "표준 충전": { ko: "22A", en: "22A", cn: "22A" },
       "지속 방전": { ko: "100A", en: "100A", cn: "100A" },
-      "최대 방전": { ko: "200A (10초)", en: "200A (10s)", cn: "200A（10秒）" },
+      "최대 방전": { ko: "200A (31초)", en: "200A (31s)", cn: "200A（31秒）" },
       "충전 시간": { ko: "3.0시간", en: "3.0 hours", cn: "3.0小时" },
       "셀 조합": { ko: "16S1P", en: "16S1P", cn: "16S1P" },
       "셀 규격": { ko: "LF105 (3.2V 105Ah)", en: "LF105 (3.2V 105Ah)", cn: "LF105（3.2V 105Ah）" },
@@ -539,7 +539,7 @@ const productsData = {
     icon: "fas fa-battery-full",
   },
   "novaECO-24v-230ah": {
-    image: "/images/products/r_24v230Ah.png",
+    image: "/images/products/트럭_고소작업대_배터리_24v_230a.png",
     name: {
       ko: "NOVAECO 트럭·고소작업대 배터리 24V 230Ah",
       en: "NOVAECO Truck·Aerial Platform Battery 24V 230Ah",
@@ -895,7 +895,7 @@ function loadProductData() {
                 <span class="spec-label">${getLabel(spec.key)}</span>
                 <span class="spec-value">${getText(product.specs[spec.value])}</span>
             </li>
-        `
+        `,
       )
       .join("");
   }
@@ -911,7 +911,7 @@ function loadProductData() {
                 <h4>${getText(feature.title)}</h4>
                 <p>${getText(feature.desc)}</p>
             </div>
-        `
+        `,
       )
       .join("");
   }
@@ -969,7 +969,7 @@ function loadProductData() {
       .map(
         (app) => `
             <li><i class="fas fa-check"></i> ${app}</li>
-        `
+        `,
       )
       .join("");
   }
@@ -984,7 +984,7 @@ function loadProductData() {
                 <div class="cert-badge">${cert.name}</div>
                 <p>${getText(cert.description)}</p>
             </div>
-        `
+        `,
       )
       .join("");
   }
@@ -1215,8 +1215,8 @@ document.addEventListener("DOMContentLoaded", () => {
           currentLanguage === "ko"
             ? "개인정보 수집 및 이용에 동의해주세요."
             : currentLanguage === "en"
-            ? "Please agree to the collection and use of personal information."
-            : "请同意收集和使用个人信息。";
+              ? "Please agree to the collection and use of personal information."
+              : "请同意收集和使用个人信息。";
         alert(privacyMsg);
         return;
       }
@@ -1243,8 +1243,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 currentLanguage === "ko"
                   ? "제품 문의가 성공적으로 전송되었습니다!\n빠른 시일 내에 연락드리겠습니다."
                   : currentLanguage === "en"
-                  ? "Your product inquiry has been sent successfully!\nWe will contact you soon."
-                  : "产品咨询已成功发送！\n我们将尽快与您联系。";
+                    ? "Your product inquiry has been sent successfully!\nWe will contact you soon."
+                    : "产品咨询已成功发送！\n我们将尽快与您联系。";
               alert(successMsg);
 
               // Reset form (but keep product name)
@@ -1259,10 +1259,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 currentLanguage === "ko"
                   ? "전송 중 오류가 발생했습니다.\n다시 시도해주세요."
                   : currentLanguage === "en"
-                  ? "An error occurred while sending.\nPlease try again."
-                  : "发送时出错。\n请重试。";
+                    ? "An error occurred while sending.\nPlease try again."
+                    : "发送时出错。\n请重试。";
               alert(errorMsg);
-            }
+            },
           )
           .finally(function () {
             // Restore button
