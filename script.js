@@ -62,11 +62,11 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// 제품 슬라이더 - Swiper
-const productSwiper = new Swiper(".productSwiper", {
+// 제품 슬라이더 - Swiper (필터 재초기화를 위해 window에 할당)
+window.productSwiper = new Swiper(".productSwiper", {
   slidesPerView: 1,
   spaceBetween: 30,
-  loop: true,
+  loop: false,
   speed: 600,
   // autoplay: {
   //     delay: 3000,
