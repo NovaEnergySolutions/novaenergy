@@ -323,7 +323,7 @@ const productsData = {
     specs: {
       "51.2V": "51.2V",
       "120Ah ": "120Ah ",
-      "5.760Wh": "5.760Wh",
+      "6.144kWh": "6.144kWh",
       "약 48kg": { ko: "약 48kg", en: "Approx. 48kg", cn: "约48kg" },
       "5년": { ko: "5년", en: "5 Years", cn: "5年" },
     },
@@ -331,7 +331,7 @@ const productsData = {
       모델명: { ko: "N51120 (48V 시스템)", en: "N51120 (48V System)", cn: "N51120（48V系统）" },
       "정격 전압": { ko: "51.4V (48V Nominal)", en: "51.4V (48V Nominal)", cn: "51.4V(48V标称)" },
       "정격 용량": { ko: "120Ah", en: "120Ah", cn: "120Ah" },
-      에너지: { ko: "5.760Wh", en: "5.760Wh", cn: "5.760Wh" },
+      에너지: { ko: "6.144kWh", en: "6.144kWh", cn: "6.144kWh" },
       "표준 충전": { ko: "20A", en: "20A", cn: "20A" },
       "지속 방전": { ko: "150A (연속)", en: "150A (Continuous)", cn: "150A（连续）" },
       "충전 온도": { ko: "0°C ~ 45°C", en: "0°C ~ 45°C", cn: "0°C ~ 45°C" },
