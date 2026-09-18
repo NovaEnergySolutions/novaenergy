@@ -483,7 +483,7 @@ const productsData = {
     specs: {
       "12.8V": "12.8V",
       "600Ah": "600Ah",
-      "5,576Wh": "5,576Wh",
+      "7,850Wh": "7,850Wh",
       "약 55kg": { ko: "약 55kg", en: "Approx. 55kg", cn: "约55kg" },
     },
     detailedSpecs: {
@@ -872,7 +872,7 @@ const productsData = {
     specs: {
       "12.8V": "12.8V",
       "300Ah": "300Ah",
-      "3,840Wh": "3,840Wh",
+      "3,954Wh": "3,954Wh",
       "약 34kg": { ko: "약 34kg", en: "Approx. 34kg", cn: "约36kg" },
       "3년": { ko: "3년", en: "3 Years", cn: "3年" },
     },
