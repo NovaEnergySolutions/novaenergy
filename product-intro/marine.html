@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap" rel="stylesheet"><title>선박용 리튬배터리 | NOVA ENERGY</title>
+  <style>
+    :root{--navy:#0B1F3A;--mint:#C7DDF2;--gold:#e7c7a3;--line:#D9E3EE;--ink:#142033;--muted:#607086}
+    *{box-sizing:border-box}body{margin:0;font-family:Pretendard,"Noto Sans KR",Arial,sans-serif;color:var(--ink);background:#F5F8FC;line-height:1.6}.wrap{width:min(1180px,100%);margin:auto}
+    .hero{padding:72px 24px 64px;background:linear-gradient(135deg,var(--navy),#163A63);color:#fff}.tag{display:inline-flex;padding:7px 16px;border-radius:999px;background:var(--mint);color:#0B1F3A;font-weight:800}
+    h1{margin:22px 0 16px;font-size:clamp(34px,5vw,62px);line-height:1.15;letter-spacing:-.04em}.lead{max-width:800px;margin:0;color:#DDE9F5;font-size:clamp(17px,2vw,21px)}
+    .stats,.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.stats{margin-top:38px}.stat{padding:23px 20px;border:1px solid rgba(255,255,255,.18);border-radius:18px;background:rgba(255,255,255,.07)}.stat strong{display:block;color:var(--gold);font-size:23px}.stat span{font-size:14px;color:#DDE9F5}
+    main{padding:56px 24px 80px}h2{margin:0 0 10px;font-size:clamp(27px,4vw,40px);letter-spacing:-.035em}.sub{margin:0 0 28px;color:var(--muted)}.benefits{margin-bottom:64px}.card{padding:25px;border:1px solid var(--line);border-radius:20px;background:#fff;box-shadow:0 10px 30px rgba(11,31,58,.06)}.icon{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:#E8F1FA;color:var(--navy);font-size:22px;font-weight:900}.card h3{margin:16px 0 7px}.card p{margin:0;color:var(--muted);font-size:15px}
+    .spec-head{display:flex;align-items:end;justify-content:space-between;gap:20px}.tabs{display:flex;gap:8px}.tab{padding:9px 17px;border:1px solid #B9C9DC;border-radius:999px;background:#fff;font-weight:800;cursor:pointer}.tab.active{border-color:var(--navy);background:var(--navy);color:#fff}.tablebox{margin-top:18px;overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(11,31,58,.05)}table{width:100%;min-width:1050px;border-collapse:collapse;text-align:center;font-size:14px}th{padding:14px 10px;background:var(--navy);color:#fff;white-space:nowrap}td{padding:14px 10px;border-bottom:1px solid #E2EAF2}tbody tr:hover{background:#F0F5FB}.chem{font-weight:900;color:var(--navy)}
+    .case{display:grid;grid-template-columns:1fr 1.3fr;gap:28px;margin-top:48px;padding:32px;border-radius:22px;background:#fff;border:1px solid var(--line)}.case strong{display:block;color:var(--navy);font-size:25px}.case p{margin:6px 0;color:var(--muted)}.numbers{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.number{padding:17px;border-radius:14px;background:#E8F1FA;text-align:center}.number b{display:block;color:var(--navy);font-size:22px}.number span{font-size:13px;color:var(--muted)}
+    .notes{margin-top:20px;padding:18px 20px;border-radius:14px;background:#E8F1FA;color:#40536B;font-size:14px}.notes p{margin:3px 0}.cta{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:50px;padding:34px;border-radius:24px;background:var(--navy);color:#fff}.cta h2{font-size:28px}.cta p{margin:5px 0 0;color:#d7e4e1}.cta a{padding:13px 22px;border-radius:999px;background:var(--mint);color:#16342f;text-decoration:none;font-weight:900;white-space:nowrap}
+    @media(max-width:850px){.stats,.benefits{grid-template-columns:repeat(2,1fr)}.spec-head,.cta,.case{align-items:flex-start;flex-direction:column}.case{grid-template-columns:1fr}}@media(max-width:520px){.hero{padding-top:48px}.stats,.benefits,.numbers{grid-template-columns:1fr}.tabs{width:100%}.tab{flex:1}.cta a{width:100%;text-align:center}}
+  
+/* 상단 선박 사진: 테두리 없이 네이비 배경으로 자연스럽게 페이드 */
+.hero{position:relative;overflow:hidden}.hero .wrap{position:relative;z-index:1}.hero::before{content:"";position:absolute;right:0;top:0;width:58%;height:100%;background-image:linear-gradient(90deg,#0B1F3A 0%,rgba(11,31,58,.7) 15%,rgba(11,31,58,0) 47%),linear-gradient(0deg,#0B1F3A 0%,transparent 25%),url("../images/product-intro/marine.jpg");background-size:cover;background-position:center;opacity:.92}.hero h1,.hero .lead{position:relative;text-shadow:0 1px 10px #0B1F3A88}.hero .lead{max-width:600px}.hero .stat{backdrop-filter:blur(4px)}@media(max-width:700px){.hero::before{width:100%;height:58%;opacity:.35}.hero .lead{max-width:100%}}
+</style>
+</head>
+<body>
+  <header class="hero"><div class="wrap"><span class="tag">선박용</span><h1>선박용 가이드모터<br>리튬배터리 솔루션</h1><p class="lead">해양 환경과 선박 운항 조건을 고려한 배터리 시스템으로 안정적인 출력과 장시간 운용을 지원합니다.</p>
+    <div class="stats"><div class="stat"><strong>24V·36V</strong><span>가이드모터용 전압 구성</span></div><div class="stat"><strong>80Ah</strong><span>정격 용량</span></div><div class="stat"><strong>6,000회 이상*</strong><span>충·방전 수명</span></div><div class="stat"><strong>약 4시간*</strong><span>표준 충전시간</span></div></div>
+  </div></header>
+  <main><div class="wrap">
+    <section><h2>해양 운용을 위한 핵심 장점</h2><p class="sub">염분·습기·진동 등 선박의 운용 환경을 고려한 배터리 시스템입니다.</p><div class="benefits">
+      <article class="card"><div class="icon">≈</div><h3>해양환경 대응</h3><p>염분과 습기에 노출되는 환경을 고려해 케이스와 연결부의 보호 설계를 적용합니다.</p></article>
+      <article class="card"><div class="icon">◆</div><h3>진동·충격 내구성</h3><p>선박의 움직임과 항해 중 진동을 고려해 내부 부품을 안정적으로 고정합니다.</p></article>
+      <article class="card"><div class="icon">◷</div><h3>장시간 운용</h3><p>안정적인 에너지 공급으로 장거리 운항과 가이드모터 사용을 지원합니다.</p></article>
+      <article class="card"><div class="icon">✓</div><h3>안전성 강화</h3><p>전압·전류·온도 상태를 고려한 다중 보호 설계로 안전한 운용을 지원합니다.</p></article>
+    </div></section>
+
+    <section><div class="spec-head"><div><h2>선박 배터리 시스템 규격</h2><p class="sub">전압을 선택해 제품 사양을 확인하세요.</p></div><div class="tabs"><button class="tab active" data-v="all">전체</button><button class="tab" data-v="24">24V</button><button class="tab" data-v="36">36V</button></div></div>
+      <div class="tablebox"><table><thead><tr><th>배터리 종류</th><th>MODEL</th><th>표기 전압</th><th>공칭전압</th><th>전압 범위</th><th>정격용량</th><th>저장 에너지</th><th>충전 수명*</th><th>방전 커넥터</th><th>충전 커넥터</th><th>충전전류</th><th>충전시간*</th></tr></thead>
+        <tbody id="specBody">
+          <tr data-row-v="24"><td class="chem">NCM</td><td>NE-4100</td><td>24V</td><td>25.9V</td><td>21–26V</td><td>80Ah</td><td>1.7kWh</td><td>6,000회 이상</td><td>SC-25SQ-M8</td><td>XT90</td><td>25A</td><td>약 4시간</td></tr>
+          <tr data-row-v="36"><td class="chem">NCM</td><td>NE-36100</td><td>36V</td><td>36V</td><td>30–40V</td><td>80Ah</td><td>2.5kWh</td><td>6,000회 이상</td><td>SC-25SQ-M8</td><td>XT90</td><td>25A</td><td>약 4시간</td></tr>
+        </tbody>
+      </table></div>
+      <div class="notes"><p>* 충전 수명과 충전시간은 충전기 사양, 운용 부하, 사용 온도, 방전 깊이와 관리 상태에 따라 달라질 수 있습니다.</p><p>* 방수·방진 등급은 실제 적용 케이스와 커넥터 구성에 따라 달라지므로 주문 사양서에서 확인해야 합니다.</p></div>
+    </section>
+
+    <section class="case"><div><strong>선박 적용 성과 자료</strong><p>제공된 기존 자료에는 조종 정밀도 향상, 유지보수 비용 절감과 교체주기 연장 사례가 포함되어 있습니다.</p></div><div class="numbers"><div class="number"><b>25%</b><span>조종 정밀도 향상*</span></div><div class="number"><b>45%</b><span>유지보수 비용 절감*</span></div><div class="number"><b>8년</b><span>교체주기 연장*</span></div></div></section>
+    <div class="notes"><p>* 성과 수치는 제공 자료에 기재된 특정 적용 사례 기준이며, 선박과 운용 조건에 따라 달라질 수 있습니다. 홈페이지 게시 전 근거 자료 확인을 권장합니다.</p></div>
+    
+  </div></main>
+  <script>
+    document.querySelectorAll('[data-v]').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('[data-v]').forEach(x=>x.classList.remove('active'));btn.classList.add('active');const v=btn.dataset.v;document.querySelectorAll('#specBody tr').forEach(row=>row.hidden=!(v==='all'||row.dataset.rowV===v))}));
+  </script>
+</body></html>

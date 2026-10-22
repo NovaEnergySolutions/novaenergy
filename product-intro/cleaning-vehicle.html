@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap" rel="stylesheet"><title>청소차용 리튬배터리 | NOVA ENERGY</title>
+  <style>
+    :root{--navy:#0B1F3A;--mint:#C7DDF2;--gold:#e7c7a3;--line:#D9E3EE;--ink:#142033;--muted:#607086}
+    *{box-sizing:border-box}body{margin:0;font-family:Pretendard,"Noto Sans KR",Arial,sans-serif;color:var(--ink);background:#F5F8FC;line-height:1.6}.wrap{width:min(1180px,100%);margin:auto}
+    .hero{padding:72px 24px 64px;background:linear-gradient(135deg,var(--navy),#163A63);color:#fff}.tag{display:inline-flex;padding:7px 16px;border-radius:999px;background:var(--mint);color:#0B1F3A;font-weight:800}
+    h1{margin:22px 0 16px;font-size:clamp(34px,5vw,62px);line-height:1.15;letter-spacing:-.04em}.lead{max-width:780px;margin:0;color:#DDE9F5;font-size:clamp(17px,2vw,21px)}
+    .stats,.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.stats{margin-top:38px}.stat{padding:23px 20px;border:1px solid rgba(255,255,255,.18);border-radius:18px;background:rgba(255,255,255,.07)}.stat strong{display:block;color:var(--gold);font-size:23px}.stat span{font-size:14px;color:#DDE9F5}
+    main{padding:56px 24px 80px}h2{margin:0 0 10px;font-size:clamp(27px,4vw,40px);letter-spacing:-.035em}.sub{margin:0 0 28px;color:var(--muted)}.benefits{margin-bottom:64px}.card{padding:25px;border:1px solid var(--line);border-radius:20px;background:#fff;box-shadow:0 10px 30px rgba(13,52,50,.06)}.icon{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:#E8F1FA;color:var(--navy);font-size:22px;font-weight:900}.card h3{margin:16px 0 7px}.card p{margin:0;color:var(--muted);font-size:15px}
+    .spec-head{display:flex;align-items:end;justify-content:space-between;gap:20px}.tabs{display:flex;gap:8px}.tab{padding:9px 17px;border:1px solid #B9CBE0;border-radius:999px;background:#fff;font-weight:800;cursor:pointer}.tab.active{border-color:var(--navy);background:var(--navy);color:#fff}
+    .tablebox{margin-top:18px;overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(13,52,50,.05)}table{width:100%;min-width:1040px;border-collapse:collapse;text-align:center;font-size:14px}th{padding:14px 11px;background:var(--navy);color:#fff;white-space:nowrap}td{padding:12px 11px;border-bottom:1px solid #E2EAF2}tbody tr:hover{background:#F0F5FC}.chem{font-weight:900;color:var(--navy)}
+    .notes{margin-top:20px;padding:18px 20px;border-radius:14px;background:#E8F1FA;color:#40536B;font-size:14px}.notes p{margin:3px 0}.cta{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:50px;padding:34px;border-radius:24px;background:var(--navy);color:#fff}.cta h2{font-size:28px}.cta p{margin:5px 0 0;color:#d7e4e1}.cta a{display:inline-block;padding:13px 22px;border-radius:999px;background:var(--mint);color:#16342f;text-decoration:none;font-weight:900;white-space:nowrap}
+    @media(max-width:850px){.stats,.benefits{grid-template-columns:repeat(2,1fr)}.spec-head,.cta{align-items:flex-start;flex-direction:column}}@media(max-width:520px){.hero{padding-top:48px}.stats,.benefits{grid-template-columns:1fr}.tabs{width:100%;flex-wrap:wrap}.tab{flex:1}.cta a{width:100%;text-align:center}}
+  
+/* 상단 실내용 청소차 사진 - 배경에 자연스럽게 연결 */
+.hero{position:relative;isolation:isolate;overflow:hidden}
+.hero::before{content:"";position:absolute;z-index:-1;right:0;top:0;width:58%;height:100%;background-image:linear-gradient(90deg,#0B1F3A 0%,rgba(11,31,58,.52) 23%,rgba(11,31,58,0) 58%),linear-gradient(0deg,#163A63 0%,transparent 35%),url("../images/product-intro/cleaning-vehicle.jpg");background-size:cover;background-position:center;opacity:.9}
+.hero .wrap{position:relative}
+.hero h1,.hero .lead{text-shadow:0 2px 12px #0B1F3A}
+@media(max-width:750px){.hero::before{width:100%;opacity:.32}}
+/* LFP / NCM 경계에만 구분선 */
+tr.chem-separator td{border-top:3px solid #0B1F3A}
+</style>
+</head>
+<body>
+  <header class="hero"><div class="wrap"><span class="tag">청소차용</span><h1>청소차용<br>리튬배터리 솔루션</h1><p class="lead">실내·실외 청소장비의 운용 환경에 맞춘 24V 배터리 시스템으로 조용하고 효율적인 작업을 지원합니다.</p>
+    <div class="stats"><div class="stat"><strong>24V</strong><span>청소장비용 전압 구성</span></div><div class="stat"><strong>20–300Ah</strong><span>다양한 용량 선택</span></div><div class="stat"><strong>최대 6,000회*</strong><span>긴 충·방전 수명</span></div><div class="stat"><strong>최대 24.8시간*</strong><span>모델별 일반 사용시간</span></div></div>
+  </div></header>
+  <main><div class="wrap">
+    <section><h2>효율적인 청소장비 운영</h2><p class="sub">저소음·무배출 운용과 긴 사용시간으로 작업 환경과 운영 효율을 개선합니다.</p><div class="benefits">
+      <article class="card"><div class="icon">♬</div><h3>저소음 운용</h3><p>전기 청소장비 특유의 조용한 운용으로 실내 및 이른 시간대 작업에 적합합니다.</p></article>
+      <article class="card"><div class="icon">♧</div><h3>무배출 작업</h3><p>운용 중 배기가스가 없어 실내 공기질 관리와 친환경 현장 운영에 도움이 됩니다.</p></article>
+      <article class="card"><div class="icon">₩</div><h3>운영비 절감</h3><p>연료비와 정기 관리 부담을 낮춰 장기간 운용 시 경제성을 높입니다.</p></article>
+      <article class="card"><div class="icon">◷</div><h3>긴 작업시간</h3><p>작업량과 장비 부하에 맞는 용량을 선택해 충전 중단을 줄일 수 있습니다.</p></article>
+    </div></section>
+    <section><div class="spec-head"><div><h2>청소차 배터리 시스템 규격</h2><p class="sub">실내용 LFP와 실외용 NCM 제품군을 선택해 확인하세요.</p></div><div class="tabs"><button class="tab active" data-filter="all">전체</button><button class="tab" data-filter="LFP">실내용 LFP</button><button class="tab" data-filter="NCM">실외용 NCM</button></div></div>
+      <div class="tablebox"><table><thead><tr><th>제품군</th><th>배터리 종류</th><th>MODEL</th><th>브랜드</th><th>전압(V)</th><th>용량(Ah)</th><th>납산 환산(Ah)</th><th>에너지(Wh)</th><th>일반 사용(h)*</th><th>연속 사용(h)*</th><th>충전 수명*</th><th>사용 연수*</th></tr></thead><tbody id="specBody"></tbody></table></div>
+      <div class="notes"><p>* 사용시간, 충전 수명 및 사용 연수는 셀 사양, 충전 조건, 장비 부하, 주행 환경과 관리 상태에 따라 달라질 수 있습니다.</p><p>* 실제 적용 전 장비의 설치 공간, 커넥터, 충전기 및 요구 출력을 확인해야 합니다.</p></div>
+    </section>
+  </div></main>
+  <script>
+    const rows=[
+      ['실내용','LFP','NE-2420','CATL',20,30,480,4.5,4],['실내용','LFP','NE-2425','CATL',25,37.5,600,4.8,4.2],['실내용','LFP','NE-2455','CATL',55,82.5,1320,6.8,5.5],['실내용','LFP','NE-2490','CATL',90,135,2160,9,7],['실내용','LFP','NE-24100','CATL',100,150,2400,10.5,8],['실내용','LFP','NE-24120','CATL',120,180,2880,12,9],['실내용','LFP','NE-24150','CATL',150,225,3600,13.5,10],['실내용','LFP','NE-24170','CATL',170,255,4080,15,11],['실내용','LFP','NE-24200','CATL',200,300,4800,18,13],['실내용','LFP','NE-24230','CATL',230,345,5520,19.5,14],['실내용','LFP','NE-24280','CATL',280,420,6720,22.5,16],['실내용','LFP','NE-24300','CATL',300,450,7200,24,17],
+      ['실외용','NCM','NE-2425','LISHEN',25,37.5,600,4.8,4.2],['실외용','NCM','NE-2437','CATL',37,55.5,888,6,5],['실외용','NCM','NE-2450','CATL',50,75,1200,6.8,5.5],['실외용','NCM','NE-2460','CATL',60,90,1440,7.5,6],['실외용','NCM','NE-2470','CATL',70,105,1680,8.3,6.5],['실외용','NCM','NE-2490','SAMSUNG',90,135,2160,9.8,7.5],['실외용','NCM','NE-24100','SAMSUNG',100,150,2400,10.5,8],['실외용','NCM','NE-24120','SAMSUNG',120,180,2880,12,9],['실외용','NCM','NE-24150','CATL',150,225,3600,13.5,10],['실외용','NCM','NE-24170','CALB',170,255,4080,15,11],['실외용','NCM','NE-24200','CATL',200,300,4800,18,13],['실외용','NCM','NE-24230','CATL',230,345,5520,19.5,14],['실외용','NCM','NE-24280','CATL',280,420,6720,23.3,16.5],['실외용','NCM','NE-24300','CATL',300,450,7200,24.8,17.5]
+    ];
+    const body=document.querySelector('#specBody');const fmt=n=>Number.isInteger(n)?n:n.toFixed(1);
+    function render(f='all'){body.innerHTML=rows.filter(r=>f==='all'||r[1]===f).map((r,i,a)=>`<tr class="${i>0&&a[i-1][1]!==r[1]?'chem-separator':''}"><td>${r[0]}</td><td class="chem">${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td><td>24</td><td>${r[4]}</td><td>${r[5]}</td><td>${r[6].toLocaleString()}</td><td>${fmt(r[7])}</td><td>${fmt(r[8])}</td><td>6,000회 이상</td><td>10년 이상</td></tr>`).join('')}
+    document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');render(b.dataset.filter)}));render();
+  </script>
+</body></html>

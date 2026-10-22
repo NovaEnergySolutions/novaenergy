@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap" rel="stylesheet"><title>고소작업대용 리튬배터리 | NOVA ENERGY</title>
+<style>
+    :root{--navy:#0B1F3A;--navy2:#163A63;--mint:#C7DDF2;--gold:#E8C48A;--line:#D9E3EE;--ink:#142033;--muted:#607086;--white:#fff}
+    *{box-sizing:border-box} body{margin:0;font-family:Pretendard,"Noto Sans KR",Arial,sans-serif;color:var(--ink);background:#F5F8FC;line-height:1.6}
+    .hero{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;padding:72px 24px 64px}
+    .wrap{width:min(1180px,100%);margin:auto}.eyebrow{display:inline-flex;padding:7px 16px;border-radius:999px;background:var(--mint);color:#0B1F3A;font-weight:800}
+    h1{margin:22px 0 16px;font-size:clamp(34px,5vw,62px);line-height:1.15;letter-spacing:-.04em}.lead{max-width:760px;margin:0;color:#DDE9F5;font-size:clamp(17px,2vw,21px)}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:38px}.stat{padding:23px 20px;border:1px solid rgba(255,255,255,.18);border-radius:18px;background:rgba(255,255,255,.07)}
+    .stat strong{display:block;color:var(--gold);font-size:23px}.stat span{font-size:14px;color:#DDE9F5}
+    main{padding:56px 24px 80px}h2{margin:0 0 10px;font-size:clamp(27px,4vw,40px);letter-spacing:-.035em}.sub{margin:0 0 28px;color:var(--muted)}
+    .benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:64px}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:25px;box-shadow:0 10px 30px rgba(11,31,58,.07)}
+    .icon{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:#E8F1FA;color:var(--navy);font-size:22px;font-weight:900}.card h3{margin:16px 0 7px}.card p{margin:0;color:var(--muted);font-size:15px}
+    .spec-head{display:flex;align-items:end;justify-content:space-between;gap:20px}.tabs{display:flex;gap:8px}.tab{border:1px solid #B8C9DA;background:#fff;border-radius:999px;padding:9px 17px;font-weight:800;cursor:pointer}.tab.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+    .tablebox{margin-top:18px;overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 10px 30px rgba(11,31,58,.06)}table{width:100%;min-width:980px;border-collapse:collapse;text-align:center;font-size:14px}th{background:var(--navy);color:#fff;padding:14px 11px;white-space:nowrap}td{padding:12px 11px;border-bottom:1px solid #E2EAF2}tbody tr:hover{background:#F0F5FB}.chem{font-weight:900;color:var(--navy)}#specBody tr.ncm-start td{border-top:4px solid var(--navy2)}
+    .notes{margin-top:20px;padding:18px 20px;border-radius:14px;background:#E8F1FA;color:#40536B;font-size:14px}.notes p{margin:3px 0}
+    .cta{margin-top:50px;border-radius:24px;padding:34px;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:24px}.cta h2{font-size:28px}.cta p{margin:5px 0 0;color:#DCE8F4}.cta a{display:inline-block;white-space:nowrap;padding:13px 22px;border-radius:999px;background:var(--mint);color:#0B1F3A;text-decoration:none;font-weight:900}
+    @media(max-width:850px){.stats,.benefits{grid-template-columns:repeat(2,1fr)}.spec-head,.cta{align-items:flex-start;flex-direction:column}}
+    @media(max-width:520px){.hero{padding-top:48px}.stats,.benefits{grid-template-columns:1fr}.tabs{width:100%}.tab{flex:1}.cta a{width:100%;text-align:center}}
+  </style>
+<style>.hero-top{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);align-items:center;gap:32px}.lift-photo{width:100%;aspect-ratio:1.18;object-fit:cover;object-position:center;border-radius:22px;box-shadow:0 18px 38px #0003}@media(max-width:750px){.hero-top{grid-template-columns:1fr}.lift-photo{max-height:340px;aspect-ratio:1.5}}</style><style>
+/* 골프카트·지게차와 통일한 네이비/화이트 제품 소개 스타일 */
+.hero{background:linear-gradient(105deg,#f7faff 0%,#eef5fc 56%,#dceaf7 100%);color:#0B1F3A;padding:58px 24px 48px}
+.hero .eyebrow{background:#dceaf9;color:#0B1F3A}
+.hero .lead{color:#40536B}
+.hero .stat{background:#fff;border:1px solid #d9e3ee;box-shadow:0 6px 18px #0b1f3a0d}
+.hero .stat strong{color:#163A63}
+.hero .stat span{color:#53677e}
+.hero-top{grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr);gap:30px}
+.lift-photo{aspect-ratio:1.35;object-fit:cover;box-shadow:0 15px 32px #0b1f3a24}
+.hero h1{font-size:clamp(34px,4.2vw,54px)}
+@media(max-width:850px){.hero-top{grid-template-columns:1fr}.lift-photo{max-height:370px}}
+</style>
+<style>
+/* Refined NOVA corporate contrast */
+.hero{background:linear-gradient(115deg,#071a32 0%,#102e50 52%,#24547d 100%)!important;color:#fff!important;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;right:-12%;top:-60%;width:65%;height:170%;background:radial-gradient(ellipse,#6d9fce35,transparent 65%);pointer-events:none}
+.hero .wrap{position:relative;z-index:1}
+.hero .eyebrow{background:#c7ddf2!important;color:#0b1f3a!important}
+.hero h1{color:#fff!important}.hero .lead{color:#dce9f8!important}
+.hero .stat{background:#ffffff13!important;border:1px solid #ffffff45!important;box-shadow:none!important;backdrop-filter:blur(4px)}
+.hero .stat strong{color:#e8c48a!important}.hero .stat span{color:#e5eef8!important}
+.lift-photo{box-shadow:0 22px 55px #0007!important;border:3px solid #ffffff35}
+main{background:linear-gradient(180deg,#e5eef8 0%,#f1f5fb 46%,#e9f0f8 100%)}
+.benefits{padding:22px;border-radius:25px;background:#d9e7f5;border:1px solid #c3d5e9;gap:16px!important}
+.card{box-shadow:0 9px 25px #0b1f3a12!important;border-color:#cbd9e9!important}
+.tablebox{box-shadow:0 15px 40px #0b1f3a15!important}
+@media(max-width:750px){.hero{padding-top:44px!important}.benefits{padding:12px}}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="wrap"><div class="hero-top"><div>
+<span class="eyebrow">고소작업대용</span>
+<h1>고소작업대용<br/>리튬배터리 솔루션</h1>
+<p class="lead">장비 운용 환경과 작업 패턴에 맞춘 24V 배터리 시스템으로 안정적인 출력과 효율적인 작업 운영을 지원합니다.</p>
+
+</div><img alt="파란색 시저형 고소작업대 현장 이미지" class="lift-photo" src="../images/product-intro/aerial-platform.webp"/></div><div class="stats">
+<div class="stat"><strong>24V</strong><span>고소작업대용 전압 구성</span></div>
+<div class="stat"><strong>90–300Ah</strong><span>다양한 용량 선택</span></div>
+<div class="stat"><strong>최대 6,000회*</strong><span>긴 충·방전 수명</span></div>
+<div class="stat"><strong>저온 히팅 기능 (선택)</strong><span>-30℃ 저온 환경에서도 안정적인 충전 및 성능 유지</span></div>
+</div></div>
+</header>
+<main><div class="wrap">
+<section>
+<h2>현장 운영을 위한 핵심 장점</h2>
+<p class="sub">충전 대기시간을 줄이고 안정적인 작업 성능을 유지하도록 설계했습니다.</p>
+<div class="benefits">
+<article class="card"><div class="icon">↓</div><h3>경량 설계</h3><p>납산배터리 대비 무게 부담을 낮춰 장비 운용성과 작업 편의성을 높입니다.</p></article>
+<article class="card"><div class="icon">↯</div><h3>빠른 충전</h3><p>작업 일정에 맞춘 효율적인 충전으로 장비의 비가동 시간을 줄입니다.</p></article>
+<article class="card"><div class="icon">◆</div><h3>안정적인 출력</h3><p>배터리 잔량 변화에도 고소작업에 필요한 출력을 안정적으로 공급합니다.</p></article>
+<article class="card"><div class="icon">✓</div><h3>유지관리 절감</h3><p>증류수 보충이 필요 없어 일상적인 관리 부담과 유지보수 비용을 줄입니다.</p></article>
+</div>
+</section>
+<section>
+<div class="spec-head"><div><h2>고소작업대 시스템 규격</h2><p class="sub">LFP와 NCM 제품군을 선택해 확인하세요.</p></div><div class="tabs"><button class="tab active" data-filter="all">전체</button><button class="tab" data-filter="LFP">LFP</button><button class="tab" data-filter="NCM">NCM</button></div></div>
+<div class="tablebox"><table>
+<thead><tr><th>제품군</th><th>배터리 종류</th><th>MODEL</th><th>브랜드</th><th>전압(V)</th><th>용량(Ah)</th><th>납산 환산(Ah)</th><th>에너지(Wh)</th><th>일반 사용(h)*</th><th>연속 사용(h)*</th><th>충전 수명*</th><th>사용 연수*</th></tr></thead>
+<tbody id="specBody"></tbody>
+</table></div>
+<div class="notes"><p>* 충전 수명, 사용 연수, 사용시간 및 온도 범위는 셀 사양, 충전 조건, 장비 부하, 작업 환경과 관리 상태에 따라 달라질 수 있습니다.</p><p>* 실제 적용 전 장비의 설치 공간, 커넥터, 충전기 및 요구 출력 확인이 필요합니다.</p></div>
+</section>
+
+</div></main>
+<script>
+    const rows=[
+      ['LFP','NE-2490','CATL',90,135,2160,8,5.5],['LFP','NE-24100','CATL',100,150,2400,9,6],['LFP','NE-24120','CATL',120,180,2880,11,7],['LFP','NE-24150','CATL',150,225,3600,13,8],['LFP','NE-24170','CATL',170,255,4080,15,9],['LFP','NE-24200','CATL',200,300,4800,17,10],['LFP','NE-24230','CATL',230,345,5520,19,11],['LFP','NE-24280','CATL',280,420,6720,21,12],['LFP','NE-24300','CATL',300,450,7200,23,13],
+      ['NCM','NE-2490','SAMSUNG',90,135,2160,8,5.5],['NCM','NE-24100','SAMSUNG',100,150,2400,9,6],['NCM','NE-24120','SAMSUNG',120,180,2880,11,7],['NCM','NE-24150','CATL',150,225,3600,13,8],['NCM','NE-24170','CALB',170,255,4080,15,9],['NCM','NE-24200','CATL',200,300,4800,17,10],['NCM','NE-24230','CATL',230,345,5520,19,11],['NCM','NE-24280','CATL',280,420,6720,21,12],['NCM','NE-24300','CATL',300,450,7200,23,13]
+    ];
+    const body=document.querySelector('#specBody');
+    function render(filter='all'){const filtered=rows.filter(r=>filter==='all'||r[0]===filter);body.innerHTML=filtered.map((r,i)=>`<tr class="${r[0]==='NCM'&&(i===0||filtered[i-1][0]!=='NCM')?'ncm-start':''}"><td>고소작업대</td><td class="chem">${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>24</td><td>${r[3]}</td><td>${r[4]}</td><td>${r[5].toLocaleString()}</td><td>${r[6]}</td><td>${r[7].toFixed(1)}</td><td>6,000회 이상</td><td>10년 이상</td></tr>`).join('')}
+    document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');render(b.dataset.filter)}));render();
+  </script>
+</body>
+</html>
